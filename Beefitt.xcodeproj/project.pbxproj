@@ -99,6 +99,21 @@
 		844219C81F9139AE000E6CEF /* sample_image_rating.png in Resources */ = {isa = PBXBuildFile; fileRef = 8442199B1F9139AE000E6CEF /* sample_image_rating.png */; };
 		844219C91F9139AE000E6CEF /* select_city_ring.png in Resources */ = {isa = PBXBuildFile; fileRef = 8442199C1F9139AE000E6CEF /* select_city_ring.png */; };
 		844219CB1F913A19000E6CEF /* banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 844219CA1F913A19000E6CEF /* banner.png */; };
+		844219D31F913D63000E6CEF /* BlogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844219D21F913D63000E6CEF /* BlogViewController.swift */; };
+		844219D51F913D6E000E6CEF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844219D41F913D6E000E6CEF /* LoginViewController.swift */; };
+		844219D71F913D81000E6CEF /* SelectCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844219D61F913D81000E6CEF /* SelectCityViewController.swift */; };
+		844219D91F913D89000E6CEF /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844219D81F913D89000E6CEF /* RegisterViewController.swift */; };
+		844219DB1F913D94000E6CEF /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844219DA1F913D94000E6CEF /* ForgotPasswordViewController.swift */; };
+		844219DD1F913DBC000E6CEF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844219DC1F913DBC000E6CEF /* HomeViewController.swift */; };
+		844219DF1F913DC9000E6CEF /* NearByViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844219DE1F913DC9000E6CEF /* NearByViewController.swift */; };
+		844219E11F913DD5000E6CEF /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844219E01F913DD5000E6CEF /* ScheduleViewController.swift */; };
+		844219E31F913DEA000E6CEF /* MyActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844219E21F913DEA000E6CEF /* MyActivityViewController.swift */; };
+		844219E51F913DF2000E6CEF /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844219E41F913DF2000E6CEF /* MoreViewController.swift */; };
+		844219E71F913E54000E6CEF /* ScheduleContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844219E61F913E54000E6CEF /* ScheduleContainerViewController.swift */; };
+		844219E91F913E61000E6CEF /* MyActivityContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844219E81F913E61000E6CEF /* MyActivityContainerViewController.swift */; };
+		844219EB1F913E7D000E6CEF /* DetailActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844219EA1F913E7D000E6CEF /* DetailActivityViewController.swift */; };
+		844219ED1F913EBE000E6CEF /* FilterContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844219EC1F913EBE000E6CEF /* FilterContainerViewController.swift */; };
+		844219EF1F9141EE000E6CEF /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844219EE1F9141EE000E6CEF /* MainTabBarViewController.swift */; };
 		84CEC2BC1F91108900F141DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CEC2BB1F91108900F141DD /* AppDelegate.swift */; };
 		84CEC2BE1F91108900F141DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CEC2BD1F91108900F141DD /* ViewController.swift */; };
 		84CEC2C11F91108900F141DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CEC2BF1F91108900F141DD /* Main.storyboard */; };
@@ -226,6 +241,21 @@
 		8442199B1F9139AE000E6CEF /* sample_image_rating.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample_image_rating.png; sourceTree = "<group>"; };
 		8442199C1F9139AE000E6CEF /* select_city_ring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = select_city_ring.png; sourceTree = "<group>"; };
 		844219CA1F913A19000E6CEF /* banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner.png; sourceTree = "<group>"; };
+		844219D21F913D63000E6CEF /* BlogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogViewController.swift; sourceTree = "<group>"; };
+		844219D41F913D6E000E6CEF /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		844219D61F913D81000E6CEF /* SelectCityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectCityViewController.swift; sourceTree = "<group>"; };
+		844219D81F913D89000E6CEF /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		844219DA1F913D94000E6CEF /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		844219DC1F913DBC000E6CEF /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		844219DE1F913DC9000E6CEF /* NearByViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearByViewController.swift; sourceTree = "<group>"; };
+		844219E01F913DD5000E6CEF /* ScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		844219E21F913DEA000E6CEF /* MyActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyActivityViewController.swift; sourceTree = "<group>"; };
+		844219E41F913DF2000E6CEF /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		844219E61F913E54000E6CEF /* ScheduleContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleContainerViewController.swift; sourceTree = "<group>"; };
+		844219E81F913E61000E6CEF /* MyActivityContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyActivityContainerViewController.swift; sourceTree = "<group>"; };
+		844219EA1F913E7D000E6CEF /* DetailActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailActivityViewController.swift; sourceTree = "<group>"; };
+		844219EC1F913EBE000E6CEF /* FilterContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterContainerViewController.swift; sourceTree = "<group>"; };
+		844219EE1F9141EE000E6CEF /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		84CEC2B81F91108900F141DD /* Beefitt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beefitt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CEC2BB1F91108900F141DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84CEC2BD1F91108900F141DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -304,6 +334,11 @@
 		844219041F911242000E6CEF /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				844219CE1F913BD7000E6CEF /* Main */,
+				844219D01F913BD7000E6CEF /* Payment */,
+				844219D11F913BD7000E6CEF /* Setting */,
+				844219CC1F913BCA000E6CEF /* Authentication */,
+				844219EE1F9141EE000E6CEF /* MainTabBarViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -512,6 +547,56 @@
 				8442199C1F9139AE000E6CEF /* select_city_ring.png */,
 			);
 			path = images;
+			sourceTree = "<group>";
+		};
+		844219CC1F913BCA000E6CEF /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				844219D21F913D63000E6CEF /* BlogViewController.swift */,
+				844219D41F913D6E000E6CEF /* LoginViewController.swift */,
+				844219D61F913D81000E6CEF /* SelectCityViewController.swift */,
+				844219D81F913D89000E6CEF /* RegisterViewController.swift */,
+				844219DA1F913D94000E6CEF /* ForgotPasswordViewController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		844219CE1F913BD7000E6CEF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				844219CF1F913BD7000E6CEF /* Filter */,
+				844219DC1F913DBC000E6CEF /* HomeViewController.swift */,
+				844219DE1F913DC9000E6CEF /* NearByViewController.swift */,
+				844219E01F913DD5000E6CEF /* ScheduleViewController.swift */,
+				844219E21F913DEA000E6CEF /* MyActivityViewController.swift */,
+				844219E41F913DF2000E6CEF /* MoreViewController.swift */,
+				844219E61F913E54000E6CEF /* ScheduleContainerViewController.swift */,
+				844219E81F913E61000E6CEF /* MyActivityContainerViewController.swift */,
+				844219EA1F913E7D000E6CEF /* DetailActivityViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		844219CF1F913BD7000E6CEF /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				844219EC1F913EBE000E6CEF /* FilterContainerViewController.swift */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		844219D01F913BD7000E6CEF /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
+		844219D11F913BD7000E6CEF /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Setting;
 			sourceTree = "<group>";
 		};
 		84CEC2AF1F91108900F141DD = {
@@ -877,28 +962,38 @@
 			files = (
 				8442194D1F911242000E6CEF /* MediaUtils.swift in Sources */,
 				8442194F1F911242000E6CEF /* TimeUtils.swift in Sources */,
+				844219D91F913D89000E6CEF /* RegisterViewController.swift in Sources */,
 				8442195C1F911242000E6CEF /* Notifications.swift in Sources */,
 				844219631F911242000E6CEF /* SessionDelegate.swift in Sources */,
 				8442194B1F911242000E6CEF /* ColorUtils.swift in Sources */,
 				844219481F911242000E6CEF /* UILabel.swift in Sources */,
 				8442194C1F911242000E6CEF /* FileDownloader.swift in Sources */,
 				8442196B1F911242000E6CEF /* SwiftyJSON.swift in Sources */,
+				844219DF1F913DC9000E6CEF /* NearByViewController.swift in Sources */,
 				8442195E1F911242000E6CEF /* Request.swift in Sources */,
 				8442194E1F911242000E6CEF /* StringUtils.swift in Sources */,
 				844219591F911242000E6CEF /* DispatchQueue+Alamofire.swift in Sources */,
+				844219E31F913DEA000E6CEF /* MyActivityViewController.swift in Sources */,
 				844219441F911242000E6CEF /* String.swift in Sources */,
+				844219ED1F913EBE000E6CEF /* FilterContainerViewController.swift in Sources */,
+				844219E91F913E61000E6CEF /* MyActivityContainerViewController.swift in Sources */,
+				844219E51F913DF2000E6CEF /* MoreViewController.swift in Sources */,
 				844219541F911242000E6CEF /* Utils.swift in Sources */,
+				844219EB1F913E7D000E6CEF /* DetailActivityViewController.swift in Sources */,
 				844219561F911242000E6CEF /* README.md in Sources */,
 				844219621F911242000E6CEF /* ServerTrustPolicy.swift in Sources */,
 				844219471F911242000E6CEF /* UIImageView.swift in Sources */,
 				8442195D1F911242000E6CEF /* ParameterEncoding.swift in Sources */,
+				844219D71F913D81000E6CEF /* SelectCityViewController.swift in Sources */,
 				844219611F911242000E6CEF /* Result.swift in Sources */,
+				844219DD1F913DBC000E6CEF /* HomeViewController.swift in Sources */,
 				84CEC2BE1F91108900F141DD /* ViewController.swift in Sources */,
 				8442196C1F911242000E6CEF /* BFPaperCheckbox.m in Sources */,
 				844219581F911242000E6CEF /* Alamofire.swift in Sources */,
 				844219411F911242000E6CEF /* API.swift in Sources */,
 				8442196D1F911242000E6CEF /* NIDropDown.m in Sources */,
 				8442195B1F911242000E6CEF /* NetworkReachabilityManager.swift in Sources */,
+				844219E11F913DD5000E6CEF /* ScheduleViewController.swift in Sources */,
 				844219651F911242000E6CEF /* TaskDelegate.swift in Sources */,
 				844219501F911242000E6CEF /* UIImage+Rendering.swift in Sources */,
 				844219601F911242000E6CEF /* ResponseSerialization.swift in Sources */,
@@ -909,12 +1004,17 @@
 				844219531F911242000E6CEF /* Utils.m in Sources */,
 				844219491F911242000E6CEF /* Global.swift in Sources */,
 				844219461F911242000E6CEF /* UIFont.swift in Sources */,
+				844219DB1F913D94000E6CEF /* ForgotPasswordViewController.swift in Sources */,
+				844219EF1F9141EE000E6CEF /* MainTabBarViewController.swift in Sources */,
 				8442195F1F911242000E6CEF /* Response.swift in Sources */,
 				844219571F911242000E6CEF /* AFError.swift in Sources */,
 				844219451F911242000E6CEF /* UIButton.swift in Sources */,
 				844219521F911242000E6CEF /* UIUtils.swift in Sources */,
 				844219431F911242000E6CEF /* Double.swift in Sources */,
+				844219E71F913E54000E6CEF /* ScheduleContainerViewController.swift in Sources */,
 				844219511F911242000E6CEF /* UIImageView+Extension.swift in Sources */,
+				844219D51F913D6E000E6CEF /* LoginViewController.swift in Sources */,
+				844219D31F913D63000E6CEF /* BlogViewController.swift in Sources */,
 				844219661F911242000E6CEF /* Timeline.swift in Sources */,
 				8442194A1F911242000E6CEF /* UserModel.swift in Sources */,
 				844219681F911242000E6CEF /* APIManager.swift in Sources */,
