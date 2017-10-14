@@ -121,12 +121,21 @@
     shapeLayer.lineWidth = border;
     shapeLayer.fillColor = [[UIColor clearColor] CGColor];
     [view.layer addSublayer:shapeLayer];
+    
     view.layer.borderColor = color.CGColor;
     view.layer.cornerRadius = cornerRadius;
     view.layer.masksToBounds = YES;
     view.layer.borderWidth = border;
 }
-
++(void)drawFrameToViewWithFillColor:(UIView*)view corner:(CGFloat)cornerRadius border:(CGFloat)border fillColor:(UIColor *)fillColor
+{
+    view.layer.backgroundColor = fillColor.CGColor;
+    view.layer.borderColor = fillColor.CGColor;
+    view.layer.cornerRadius = cornerRadius;
+    view.layer.masksToBounds = YES;
+    view.layer.borderWidth = border;
+    
+}
 +(void)drawFrameToView:(UIView*)view corner:(CGFloat)cornerRadius border:(CGFloat)border color:(UIColor *)color
 {
     

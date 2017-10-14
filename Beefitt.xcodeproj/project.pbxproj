@@ -8,6 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		4D00480FCA3F6103A0D3068C /* Pods_BeefittTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD9C2BD192975580BABE702 /* Pods_BeefittTests.framework */; };
+		8430C5651F9228D30055DB2D /* bg_login.png in Resources */ = {isa = PBXBuildFile; fileRef = 8430C5641F9228D30055DB2D /* bg_login.png */; };
+		8430C5681F9241860055DB2D /* NearbyContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8430C5671F9241860055DB2D /* NearbyContainerViewController.swift */; };
+		8430C56E1F924C5A0055DB2D /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 8430C5691F924C5A0055DB2D /* calendar.png */; };
+		8430C56F1F924C5A0055DB2D /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 8430C56A1F924C5A0055DB2D /* home.png */; };
+		8430C5701F924C5A0055DB2D /* more.png in Resources */ = {isa = PBXBuildFile; fileRef = 8430C56B1F924C5A0055DB2D /* more.png */; };
+		8430C5711F924C5A0055DB2D /* my_activity.png in Resources */ = {isa = PBXBuildFile; fileRef = 8430C56C1F924C5A0055DB2D /* my_activity.png */; };
+		8430C5721F924C5A0055DB2D /* nearby.png in Resources */ = {isa = PBXBuildFile; fileRef = 8430C56D1F924C5A0055DB2D /* nearby.png */; };
+		8430C5761F92519B0055DB2D /* btn_7days.png in Resources */ = {isa = PBXBuildFile; fileRef = 8430C5731F92519B0055DB2D /* btn_7days.png */; };
+		8430C5771F92519B0055DB2D /* btn_14days.png in Resources */ = {isa = PBXBuildFile; fileRef = 8430C5741F92519B0055DB2D /* btn_14days.png */; };
+		8430C5781F92519B0055DB2D /* btn_30days.png in Resources */ = {isa = PBXBuildFile; fileRef = 8430C5751F92519B0055DB2D /* btn_30days.png */; };
+		8430C57B1F9265FD0055DB2D /* CityCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8430C5791F9265FD0055DB2D /* CityCollectionViewCell.swift */; };
+		8430C57C1F9265FD0055DB2D /* CityCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8430C57A1F9265FD0055DB2D /* CityCollectionViewCell.xib */; };
+		8430C57F1F9266190055DB2D /* ActivityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8430C57D1F9266190055DB2D /* ActivityTableViewCell.swift */; };
+		8430C5801F9266190055DB2D /* ActivityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8430C57E1F9266190055DB2D /* ActivityTableViewCell.xib */; };
+		8430C5821F926A2D0055DB2D /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8430C5811F926A2D0055DB2D /* CityModel.swift */; };
+		8430C5841F9273950055DB2D /* ActivityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8430C5831F9273950055DB2D /* ActivityModel.swift */; };
 		844219411F911242000E6CEF /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844219021F911242000E6CEF /* API.swift */; };
 		844219421F911242000E6CEF /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844219031F911242000E6CEF /* Constant.swift */; };
 		844219431F911242000E6CEF /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844219061F911242000E6CEF /* Double.swift */; };
@@ -109,13 +125,11 @@
 		844219E11F913DD5000E6CEF /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844219E01F913DD5000E6CEF /* ScheduleViewController.swift */; };
 		844219E31F913DEA000E6CEF /* MyActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844219E21F913DEA000E6CEF /* MyActivityViewController.swift */; };
 		844219E51F913DF2000E6CEF /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844219E41F913DF2000E6CEF /* MoreViewController.swift */; };
-		844219E71F913E54000E6CEF /* ScheduleContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844219E61F913E54000E6CEF /* ScheduleContainerViewController.swift */; };
 		844219E91F913E61000E6CEF /* MyActivityContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844219E81F913E61000E6CEF /* MyActivityContainerViewController.swift */; };
 		844219EB1F913E7D000E6CEF /* DetailActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844219EA1F913E7D000E6CEF /* DetailActivityViewController.swift */; };
 		844219ED1F913EBE000E6CEF /* FilterContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844219EC1F913EBE000E6CEF /* FilterContainerViewController.swift */; };
 		844219EF1F9141EE000E6CEF /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844219EE1F9141EE000E6CEF /* MainTabBarViewController.swift */; };
 		84CEC2BC1F91108900F141DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CEC2BB1F91108900F141DD /* AppDelegate.swift */; };
-		84CEC2BE1F91108900F141DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CEC2BD1F91108900F141DD /* ViewController.swift */; };
 		84CEC2C11F91108900F141DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CEC2BF1F91108900F141DD /* Main.storyboard */; };
 		84CEC2C31F91108900F141DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84CEC2C21F91108900F141DD /* Assets.xcassets */; };
 		84CEC2C61F91108900F141DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CEC2C41F91108900F141DD /* LaunchScreen.storyboard */; };
@@ -146,6 +160,23 @@
 		343D6210D2621CF588B160BE /* Pods_Beefitt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Beefitt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D8635F85B8B0020B063EC04 /* Pods-BeefittTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeefittTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeefittTests/Pods-BeefittTests.release.xcconfig"; sourceTree = "<group>"; };
 		62080E669364A5478012127F /* Pods-Beefitt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beefitt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Beefitt/Pods-Beefitt.debug.xcconfig"; sourceTree = "<group>"; };
+		8430C5641F9228D30055DB2D /* bg_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_login.png; sourceTree = "<group>"; };
+		8430C5661F922E740055DB2D /* Beefitt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Beefitt.entitlements; sourceTree = "<group>"; };
+		8430C5671F9241860055DB2D /* NearbyContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearbyContainerViewController.swift; sourceTree = "<group>"; };
+		8430C5691F924C5A0055DB2D /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
+		8430C56A1F924C5A0055DB2D /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		8430C56B1F924C5A0055DB2D /* more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = more.png; sourceTree = "<group>"; };
+		8430C56C1F924C5A0055DB2D /* my_activity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_activity.png; sourceTree = "<group>"; };
+		8430C56D1F924C5A0055DB2D /* nearby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nearby.png; sourceTree = "<group>"; };
+		8430C5731F92519B0055DB2D /* btn_7days.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_7days.png; sourceTree = "<group>"; };
+		8430C5741F92519B0055DB2D /* btn_14days.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_14days.png; sourceTree = "<group>"; };
+		8430C5751F92519B0055DB2D /* btn_30days.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_30days.png; sourceTree = "<group>"; };
+		8430C5791F9265FD0055DB2D /* CityCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityCollectionViewCell.swift; sourceTree = "<group>"; };
+		8430C57A1F9265FD0055DB2D /* CityCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CityCollectionViewCell.xib; sourceTree = "<group>"; };
+		8430C57D1F9266190055DB2D /* ActivityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityTableViewCell.swift; sourceTree = "<group>"; };
+		8430C57E1F9266190055DB2D /* ActivityTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityTableViewCell.xib; sourceTree = "<group>"; };
+		8430C5811F926A2D0055DB2D /* CityModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
+		8430C5831F9273950055DB2D /* ActivityModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityModel.swift; sourceTree = "<group>"; };
 		844219021F911242000E6CEF /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		844219031F911242000E6CEF /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		844219061F911242000E6CEF /* Double.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
@@ -251,14 +282,12 @@
 		844219E01F913DD5000E6CEF /* ScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
 		844219E21F913DEA000E6CEF /* MyActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyActivityViewController.swift; sourceTree = "<group>"; };
 		844219E41F913DF2000E6CEF /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
-		844219E61F913E54000E6CEF /* ScheduleContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleContainerViewController.swift; sourceTree = "<group>"; };
 		844219E81F913E61000E6CEF /* MyActivityContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyActivityContainerViewController.swift; sourceTree = "<group>"; };
 		844219EA1F913E7D000E6CEF /* DetailActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailActivityViewController.swift; sourceTree = "<group>"; };
 		844219EC1F913EBE000E6CEF /* FilterContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterContainerViewController.swift; sourceTree = "<group>"; };
 		844219EE1F9141EE000E6CEF /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		84CEC2B81F91108900F141DD /* Beefitt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beefitt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CEC2BB1F91108900F141DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84CEC2BD1F91108900F141DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84CEC2C01F91108900F141DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84CEC2C21F91108900F141DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84CEC2C51F91108900F141DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -361,6 +390,8 @@
 			children = (
 				8442190D1F911242000E6CEF /* Global.swift */,
 				8442190E1F911242000E6CEF /* UserModel.swift */,
+				8430C5811F926A2D0055DB2D /* CityModel.swift */,
+				8430C5831F9273950055DB2D /* ActivityModel.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -465,6 +496,10 @@
 		844219391F911242000E6CEF /* view */ = {
 			isa = PBXGroup;
 			children = (
+				8430C5791F9265FD0055DB2D /* CityCollectionViewCell.swift */,
+				8430C57A1F9265FD0055DB2D /* CityCollectionViewCell.xib */,
+				8430C57D1F9266190055DB2D /* ActivityTableViewCell.swift */,
+				8430C57E1F9266190055DB2D /* ActivityTableViewCell.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -499,6 +534,15 @@
 		8442196F1F9139AE000E6CEF /* images */ = {
 			isa = PBXGroup;
 			children = (
+				8430C5731F92519B0055DB2D /* btn_7days.png */,
+				8430C5741F92519B0055DB2D /* btn_14days.png */,
+				8430C5751F92519B0055DB2D /* btn_30days.png */,
+				8430C5691F924C5A0055DB2D /* calendar.png */,
+				8430C56A1F924C5A0055DB2D /* home.png */,
+				8430C56B1F924C5A0055DB2D /* more.png */,
+				8430C56C1F924C5A0055DB2D /* my_activity.png */,
+				8430C56D1F924C5A0055DB2D /* nearby.png */,
+				8430C5641F9228D30055DB2D /* bg_login.png */,
 				844219CA1F913A19000E6CEF /* banner.png */,
 				844219701F9139AE000E6CEF /* arrow_back.png */,
 				844219711F9139AE000E6CEF /* arrow_back_white.png */,
@@ -553,8 +597,8 @@
 			isa = PBXGroup;
 			children = (
 				844219D21F913D63000E6CEF /* BlogViewController.swift */,
-				844219D41F913D6E000E6CEF /* LoginViewController.swift */,
 				844219D61F913D81000E6CEF /* SelectCityViewController.swift */,
+				844219D41F913D6E000E6CEF /* LoginViewController.swift */,
 				844219D81F913D89000E6CEF /* RegisterViewController.swift */,
 				844219DA1F913D94000E6CEF /* ForgotPasswordViewController.swift */,
 			);
@@ -566,12 +610,12 @@
 			children = (
 				844219CF1F913BD7000E6CEF /* Filter */,
 				844219DC1F913DBC000E6CEF /* HomeViewController.swift */,
+				8430C5671F9241860055DB2D /* NearbyContainerViewController.swift */,
 				844219DE1F913DC9000E6CEF /* NearByViewController.swift */,
 				844219E01F913DD5000E6CEF /* ScheduleViewController.swift */,
+				844219E81F913E61000E6CEF /* MyActivityContainerViewController.swift */,
 				844219E21F913DEA000E6CEF /* MyActivityViewController.swift */,
 				844219E41F913DF2000E6CEF /* MoreViewController.swift */,
-				844219E61F913E54000E6CEF /* ScheduleContainerViewController.swift */,
-				844219E81F913E61000E6CEF /* MyActivityContainerViewController.swift */,
 				844219EA1F913E7D000E6CEF /* DetailActivityViewController.swift */,
 			);
 			path = Main;
@@ -622,6 +666,7 @@
 		84CEC2BA1F91108900F141DD /* Beefitt */ = {
 			isa = PBXGroup;
 			children = (
+				8430C5661F922E740055DB2D /* Beefitt.entitlements */,
 				844219011F911242000E6CEF /* constant */,
 				844219041F911242000E6CEF /* controller */,
 				844219051F911242000E6CEF /* extension */,
@@ -631,7 +676,6 @@
 				844219391F911242000E6CEF /* view */,
 				8442193A1F911242000E6CEF /* widget */,
 				84CEC2BB1F91108900F141DD /* AppDelegate.swift */,
-				84CEC2BD1F91108900F141DD /* ViewController.swift */,
 				84CEC2BF1F91108900F141DD /* Main.storyboard */,
 				84CEC2C21F91108900F141DD /* Assets.xcassets */,
 				84CEC2C41F91108900F141DD /* LaunchScreen.storyboard */,
@@ -720,6 +764,11 @@
 						DevelopmentTeam = 68AWSRL435;
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					84CEC2CB1F91108900F141DD = {
 						CreatedOnToolsVersion = 8.3.1;
@@ -762,11 +811,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8430C5781F92519B0055DB2D /* btn_30days.png in Resources */,
 				844219CB1F913A19000E6CEF /* banner.png in Resources */,
 				844219C41F9139AE000E6CEF /* sample_image7.png in Resources */,
+				8430C56F1F924C5A0055DB2D /* home.png in Resources */,
 				844219B01F9139AE000E6CEF /* btn_tuition.png in Resources */,
+				8430C5711F924C5A0055DB2D /* my_activity.png in Resources */,
 				844219A21F9139AE000E6CEF /* bg_location_address.png in Resources */,
 				84CEC2C61F91108900F141DD /* LaunchScreen.storyboard in Resources */,
+				8430C5701F924C5A0055DB2D /* more.png in Resources */,
 				844219AD1F9139AE000E6CEF /* btn_search.png in Resources */,
 				844219C81F9139AE000E6CEF /* sample_image_rating.png in Resources */,
 				844219C71F9139AE000E6CEF /* sample_image_login.png in Resources */,
@@ -777,6 +830,7 @@
 				844219A41F9139AE000E6CEF /* bg_nav_bar2.png in Resources */,
 				844219A71F9139AE000E6CEF /* bg_round_corner_white.png in Resources */,
 				844219B61F9139AE000E6CEF /* ic_need_help.png in Resources */,
+				8430C56E1F924C5A0055DB2D /* calendar.png in Resources */,
 				844219B31F9139AE000E6CEF /* ic_calendar.png in Resources */,
 				844219BF1F9139AE000E6CEF /* sample_image2.png in Resources */,
 				844219BB1F9139AE000E6CEF /* mask1.png in Resources */,
@@ -787,6 +841,7 @@
 				8442199F1F9139AE000E6CEF /* arrow_down_gray.png in Resources */,
 				844219AE1F9139AE000E6CEF /* btn_share.png in Resources */,
 				844219B51F9139AE000E6CEF /* ic_location.png in Resources */,
+				8430C5801F9266190055DB2D /* ActivityTableViewCell.xib in Resources */,
 				844219B21F9139AE000E6CEF /* default_user.png in Resources */,
 				84CEC2C31F91108900F141DD /* Assets.xcassets in Resources */,
 				844219AC1F9139AE000E6CEF /* btn_kids_service.png in Resources */,
@@ -794,11 +849,14 @@
 				844219551F911242000E6CEF /* LICENSE in Resources */,
 				844219B71F9139AE000E6CEF /* ic_party_service.png in Resources */,
 				844219C11F9139AE000E6CEF /* sample_image4.png in Resources */,
+				8430C5721F924C5A0055DB2D /* nearby.png in Resources */,
 				84CEC2C11F91108900F141DD /* Main.storyboard in Resources */,
 				844219B41F9139AE000E6CEF /* ic_clock.png in Resources */,
 				844219A51F9139AE000E6CEF /* bg_round_corner.png in Resources */,
 				844219B91F9139AE000E6CEF /* ic_profile_setting.png in Resources */,
 				844219C51F9139AE000E6CEF /* sample_image8.png in Resources */,
+				8430C5771F92519B0055DB2D /* btn_14days.png in Resources */,
+				8430C57C1F9265FD0055DB2D /* CityCollectionViewCell.xib in Resources */,
 				844219B81F9139AE000E6CEF /* ic_payment.png in Resources */,
 				844219A91F9139AE000E6CEF /* bg_white_shadow.png in Resources */,
 				844219A01F9139AE000E6CEF /* bg_fb_login_button.png in Resources */,
@@ -810,6 +868,8 @@
 				844219A61F9139AE000E6CEF /* bg_round_corner_gray.png in Resources */,
 				844219A81F9139AE000E6CEF /* bg_search_bar.png in Resources */,
 				8442199D1F9139AE000E6CEF /* arrow_back.png in Resources */,
+				8430C5761F92519B0055DB2D /* btn_7days.png in Resources */,
+				8430C5651F9228D30055DB2D /* bg_login.png in Resources */,
 				844219BE1F9139AE000E6CEF /* sample_image1.png in Resources */,
 				844219AB1F9139AE000E6CEF /* btn_favorite.png in Resources */,
 				844219691F911242000E6CEF /* LICENSE in Resources */,
@@ -979,6 +1039,7 @@
 				844219E91F913E61000E6CEF /* MyActivityContainerViewController.swift in Sources */,
 				844219E51F913DF2000E6CEF /* MoreViewController.swift in Sources */,
 				844219541F911242000E6CEF /* Utils.swift in Sources */,
+				8430C5681F9241860055DB2D /* NearbyContainerViewController.swift in Sources */,
 				844219EB1F913E7D000E6CEF /* DetailActivityViewController.swift in Sources */,
 				844219561F911242000E6CEF /* README.md in Sources */,
 				844219621F911242000E6CEF /* ServerTrustPolicy.swift in Sources */,
@@ -987,7 +1048,6 @@
 				844219D71F913D81000E6CEF /* SelectCityViewController.swift in Sources */,
 				844219611F911242000E6CEF /* Result.swift in Sources */,
 				844219DD1F913DBC000E6CEF /* HomeViewController.swift in Sources */,
-				84CEC2BE1F91108900F141DD /* ViewController.swift in Sources */,
 				8442196C1F911242000E6CEF /* BFPaperCheckbox.m in Sources */,
 				844219581F911242000E6CEF /* Alamofire.swift in Sources */,
 				844219411F911242000E6CEF /* API.swift in Sources */,
@@ -1003,15 +1063,17 @@
 				84CEC2BC1F91108900F141DD /* AppDelegate.swift in Sources */,
 				844219531F911242000E6CEF /* Utils.m in Sources */,
 				844219491F911242000E6CEF /* Global.swift in Sources */,
+				8430C57B1F9265FD0055DB2D /* CityCollectionViewCell.swift in Sources */,
 				844219461F911242000E6CEF /* UIFont.swift in Sources */,
 				844219DB1F913D94000E6CEF /* ForgotPasswordViewController.swift in Sources */,
 				844219EF1F9141EE000E6CEF /* MainTabBarViewController.swift in Sources */,
+				8430C5841F9273950055DB2D /* ActivityModel.swift in Sources */,
 				8442195F1F911242000E6CEF /* Response.swift in Sources */,
 				844219571F911242000E6CEF /* AFError.swift in Sources */,
 				844219451F911242000E6CEF /* UIButton.swift in Sources */,
 				844219521F911242000E6CEF /* UIUtils.swift in Sources */,
 				844219431F911242000E6CEF /* Double.swift in Sources */,
-				844219E71F913E54000E6CEF /* ScheduleContainerViewController.swift in Sources */,
+				8430C5821F926A2D0055DB2D /* CityModel.swift in Sources */,
 				844219511F911242000E6CEF /* UIImageView+Extension.swift in Sources */,
 				844219D51F913D6E000E6CEF /* LoginViewController.swift in Sources */,
 				844219D31F913D63000E6CEF /* BlogViewController.swift in Sources */,
@@ -1020,6 +1082,7 @@
 				844219681F911242000E6CEF /* APIManager.swift in Sources */,
 				844219671F911242000E6CEF /* Validation.swift in Sources */,
 				844219421F911242000E6CEF /* Constant.swift in Sources */,
+				8430C57F1F9266190055DB2D /* ActivityTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1170,6 +1233,7 @@
 			baseConfigurationReference = 62080E669364A5478012127F /* Pods-Beefitt.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Beefitt/Beefitt.entitlements;
 				DEVELOPMENT_TEAM = 68AWSRL435;
 				INFOPLIST_FILE = Beefitt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1185,6 +1249,7 @@
 			baseConfigurationReference = 22E24A695D1AD1AF2E22A33F /* Pods-Beefitt.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Beefitt/Beefitt.entitlements;
 				DEVELOPMENT_TEAM = 68AWSRL435;
 				INFOPLIST_FILE = Beefitt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

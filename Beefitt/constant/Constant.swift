@@ -31,7 +31,7 @@ public struct Constant {
     static let yellow: UIColor = makeColorFromHex("#ed8a19")
     static let sort_selected: UIColor = makeColorFromHex("#bdcadb")
     
-    static let cornerRadius5:CGFloat = 5.0
+    static let cornerRadius20:CGFloat = 20.0
     
    
     static let arrCountry = ["Afghanistan",

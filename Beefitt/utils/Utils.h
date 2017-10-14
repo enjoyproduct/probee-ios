@@ -47,8 +47,9 @@ NSNotificationCenter *notificationCenter = [NSNotificationCenter defaultCenter];
 + (CGFloat)widthOfString:(NSString *)string withFont:(NSFont *)font;
 
 +(void)drawFrameToViewByAdd:(UIView*)view corner:(CGFloat)cornerRadius border:(CGFloat)border color:(UIColor *)color;
++(void)drawFrameToViewWithFillColor:(UIView*)view corner:(CGFloat)cornerRadius border:(CGFloat)border fillColor:(UIColor *)fillColor;//good
 
-+(void)drawFrameToView:(UIView*)view corner:(CGFloat)cornerRadius border:(CGFloat)border color:(UIColor*)color;
++(void)drawFrameToView:(UIView*)view corner:(CGFloat)cornerRadius border:(CGFloat)border color:(UIColor*)color;//good
 
 //Draw Circle To the View;
 +(void)drawCircleToView:(UIView*)view border:(CGFloat)border color:(UIColor*)color;

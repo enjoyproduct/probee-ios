@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CityCollectionViewCell" id="gTV-IL-0wX" customClass="CityCollectionViewCell" customModule="Beefitt" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="124" height="123"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="124" height="123"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R4p-Y0-0CN">
+                        <rect key="frame" x="0.0" y="0.0" width="124" height="123"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="city_ring.png" translatesAutoresizingMaskIntoConstraints="NO" id="hVc-Sc-gVe">
+                                <rect key="frame" x="22" y="8" width="80" height="80"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="3Kd-XI-Ruj"/>
+                                    <constraint firstAttribute="width" secondItem="hVc-Sc-gVe" secondAttribute="height" multiplier="1:1" id="N8n-r5-eST"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="select_city_ring.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ckp-Q1-ghK">
+                                <rect key="frame" x="22" y="8" width="80" height="80"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CyP-eK-8LI">
+                                <rect key="frame" x="40.5" y="38" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aDh-rd-lLK">
+                                <rect key="frame" x="45.5" y="96" width="33" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="CyP-eK-8LI" firstAttribute="centerX" secondItem="hVc-Sc-gVe" secondAttribute="centerX" id="2UK-hh-Q09"/>
+                            <constraint firstItem="hVc-Sc-gVe" firstAttribute="centerX" secondItem="R4p-Y0-0CN" secondAttribute="centerX" id="3mB-aT-w1z"/>
+                            <constraint firstItem="Ckp-Q1-ghK" firstAttribute="centerY" secondItem="hVc-Sc-gVe" secondAttribute="centerY" id="4uq-Go-lg1"/>
+                            <constraint firstItem="hVc-Sc-gVe" firstAttribute="top" secondItem="R4p-Y0-0CN" secondAttribute="top" constant="8" id="7gD-kX-KT6"/>
+                            <constraint firstItem="Ckp-Q1-ghK" firstAttribute="height" secondItem="hVc-Sc-gVe" secondAttribute="height" id="G3p-Ss-KKF"/>
+                            <constraint firstItem="Ckp-Q1-ghK" firstAttribute="centerX" secondItem="hVc-Sc-gVe" secondAttribute="centerX" id="GgL-Wu-XzB"/>
+                            <constraint firstItem="CyP-eK-8LI" firstAttribute="centerY" secondItem="hVc-Sc-gVe" secondAttribute="centerY" id="Gna-vL-VNh"/>
+                            <constraint firstItem="Ckp-Q1-ghK" firstAttribute="width" secondItem="hVc-Sc-gVe" secondAttribute="width" id="Q8D-5k-MHE"/>
+                            <constraint firstItem="aDh-rd-lLK" firstAttribute="top" secondItem="hVc-Sc-gVe" secondAttribute="bottom" constant="8" id="eza-oS-ANh"/>
+                            <constraint firstItem="aDh-rd-lLK" firstAttribute="centerX" secondItem="hVc-Sc-gVe" secondAttribute="centerX" id="iYl-vU-aag"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="R4p-Y0-0CN" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" id="F7s-E4-0QO"/>
+                <constraint firstItem="R4p-Y0-0CN" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" id="Tnz-VH-0AM"/>
+                <constraint firstItem="R4p-Y0-0CN" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="YwI-YO-6su"/>
+                <constraint firstItem="R4p-Y0-0CN" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="nAF-P6-heN"/>
+            </constraints>
+            <size key="customSize" width="124" height="123"/>
+            <connections>
+                <outlet property="ivSelected" destination="Ckp-Q1-ghK" id="HMb-eV-aoB"/>
+                <outlet property="lblAbbreviation" destination="CyP-eK-8LI" id="0kX-Ju-OBc"/>
+                <outlet property="lblCityName" destination="aDh-rd-lLK" id="RSm-9K-mcD"/>
+            </connections>
+            <point key="canvasLocation" x="-52" y="29.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="city_ring.png" width="133" height="133"/>
+        <image name="select_city_ring.png" width="132" height="132"/>
+    </resources>
+</document>

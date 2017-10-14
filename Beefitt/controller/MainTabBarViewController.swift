@@ -14,6 +14,9 @@ class MainTabBarViewController: UITabBarController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        self.tabBar.backgroundColor = Constant.lightGray
+        self.tabBar.tintColor = Constant.colorPrimary
+        
     }
 
     override func didReceiveMemoryWarning() {

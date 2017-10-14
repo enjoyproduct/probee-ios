@@ -10,6 +10,9 @@ import UIKit
 
 class NearByViewController: UIViewController {
 
+    var type = 0;
+    
+    @IBOutlet weak var tableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
