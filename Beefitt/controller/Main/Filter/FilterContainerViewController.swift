@@ -7,13 +7,80 @@
 //
 
 import UIKit
+import CarbonKit
 
-class FilterContainerViewController: UIViewController {
+class FilterContainerViewController: UIViewController, CarbonTabSwipeNavigationDelegate  {
 
+    var titles = [String]()
+    var carbonTabSwiftNavigation: CarbonTabSwipeNavigation? = nil
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        titles = ["Activity", "Location", "Time", "Other", ""]
+        
+        carbonTabSwiftNavigation = CarbonTabSwipeNavigation(items: titles, delegate: self)
+        carbonTabSwiftNavigation?.insert(intoRootViewController: self)
+        
+        self.style()
+        
+    }
+    func style()  {
+        //make transparent toolbar
+        carbonTabSwiftNavigation?.toolbar.isTranslucent = true
+        carbonTabSwiftNavigation?.toolbar.setBackgroundImage(UIImage(), forToolbarPosition: UIBarPosition.any, barMetrics: UIBarMetrics.default)
+        carbonTabSwiftNavigation?.toolbar.setShadowImage(UIImage(), forToolbarPosition: .any)
+        carbonTabSwiftNavigation?.toolbar.backgroundColor = UIColor.clear
+        carbonTabSwiftNavigation?.toolbar.barTintColor = UIColor.clear
+        //set text color
+        carbonTabSwiftNavigation?.toolbar.tintColor = UIColor.white
+        //set indicator color
+        carbonTabSwiftNavigation?.setIndicatorColor(UIColor.white)
+        //set tab width
+        for i in 0..<self.titles.count  {
+            carbonTabSwiftNavigation?.carbonSegmentedControl?.setWidth(getScreenSize().width / 5, forSegmentAt: i)
+        }
+        //customize segment color
+        let font = UIFont.systemFont(ofSize: 13)
+        carbonTabSwiftNavigation?.setNormalColor(Constant.lightGray.withAlphaComponent(0.6), font: font)
+        carbonTabSwiftNavigation?.setSelectedColor(UIColor.white, font: font)
+        ///add constraint
+        let topConstraint = NSLayoutConstraint(item: carbonTabSwiftNavigation?.toolbar, attribute: .top, relatedBy: .equal, toItem: carbonTabSwiftNavigation?.view, attribute: .top, multiplier: 1, constant: 6)
+        self.view.addConstraint(topConstraint)
+    }
+    
+    // MARK: - CarbonTabSwipeNavigationDelegate
+    func carbonTabSwipeNavigation(_ carbonTabSwipeNavigation: CarbonTabSwipeNavigation, viewControllerAt index: UInt) -> UIViewController {
+        switch index {
+        case 0:
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: "FilterActivityViewController") as! FilterActivityViewController
+            return vc
+        case 1:
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: "FilterLocationViewController") as! FilterLocationViewController
+            return vc
+        case 2:
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: "FilterTimeViewController") as! FilterTimeViewController
+            return vc
+        case 3:
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: "FilterOtherViewController") as! FilterOtherViewController
+            return vc
+       
+        default:
+            self.dismiss(animated: true, completion: nil)
+            return UIViewController()
+        }
+        
+    }
+    func carbonTabSwipeNavigation(_ carbonTabSwipeNavigation: CarbonTabSwipeNavigation, willMoveAt index: UInt) {
+        
+    }
+    func carbonTabSwipeNavigation(_ carbonTabSwipeNavigation: CarbonTabSwipeNavigation, didMoveAt index: UInt) {
+        
+    }
+    func barPosition(for carbonTabSwipeNavigation: CarbonTabSwipeNavigation) -> UIBarPosition {
+        return UIBarPosition.top; // default UIBarPositionTop
     }
 
     override func didReceiveMemoryWarning() {

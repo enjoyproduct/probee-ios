@@ -133,6 +133,10 @@
 		84CEC2C11F91108900F141DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CEC2BF1F91108900F141DD /* Main.storyboard */; };
 		84CEC2C31F91108900F141DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84CEC2C21F91108900F141DD /* Assets.xcassets */; };
 		84CEC2C61F91108900F141DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CEC2C41F91108900F141DD /* LaunchScreen.storyboard */; };
+		84D444A31F947CF000FE39BD /* FilterActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D444A21F947CF000FE39BD /* FilterActivityViewController.swift */; };
+		84D444A51F947D0600FE39BD /* FilterLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D444A41F947D0600FE39BD /* FilterLocationViewController.swift */; };
+		84D444A71F947D1300FE39BD /* FilterTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D444A61F947D1300FE39BD /* FilterTimeViewController.swift */; };
+		84D444A91F947D2600FE39BD /* FilterOtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D444A81F947D2600FE39BD /* FilterOtherViewController.swift */; };
 		F41E99216E04C90596AD3FE1 /* Pods_Beefitt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 343D6210D2621CF588B160BE /* Pods_Beefitt.framework */; };
 		FDA5866BA40361F5E5FE14AF /* Pods_BeefittUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07359239D18CFE183BABDA67 /* Pods_BeefittUITests.framework */; };
 /* End PBXBuildFile section */
@@ -294,6 +298,10 @@
 		84CEC2C71F91108900F141DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84CEC2CC1F91108900F141DD /* BeefittTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeefittTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CEC2D71F91108900F141DD /* BeefittUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeefittUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D444A21F947CF000FE39BD /* FilterActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterActivityViewController.swift; sourceTree = "<group>"; };
+		84D444A41F947D0600FE39BD /* FilterLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterLocationViewController.swift; sourceTree = "<group>"; };
+		84D444A61F947D1300FE39BD /* FilterTimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterTimeViewController.swift; sourceTree = "<group>"; };
+		84D444A81F947D2600FE39BD /* FilterOtherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterOtherViewController.swift; sourceTree = "<group>"; };
 		AAD9C2BD192975580BABE702 /* Pods_BeefittTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeefittTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7719D9F76C10521F791866 /* Pods-BeefittUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeefittUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeefittUITests/Pods-BeefittUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D0D1A1EEE1CCF8B4F0B8F2F2 /* Pods-BeefittUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeefittUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeefittUITests/Pods-BeefittUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -625,6 +633,10 @@
 			isa = PBXGroup;
 			children = (
 				844219EC1F913EBE000E6CEF /* FilterContainerViewController.swift */,
+				84D444A21F947CF000FE39BD /* FilterActivityViewController.swift */,
+				84D444A41F947D0600FE39BD /* FilterLocationViewController.swift */,
+				84D444A61F947D1300FE39BD /* FilterTimeViewController.swift */,
+				84D444A81F947D2600FE39BD /* FilterOtherViewController.swift */,
 			);
 			path = Filter;
 			sourceTree = "<group>";
@@ -763,7 +775,7 @@
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = 68AWSRL435;
 						LastSwiftMigration = 0830;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.Push = {
 								enabled = 1;
@@ -1020,6 +1032,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D444A51F947D0600FE39BD /* FilterLocationViewController.swift in Sources */,
 				8442194D1F911242000E6CEF /* MediaUtils.swift in Sources */,
 				8442194F1F911242000E6CEF /* TimeUtils.swift in Sources */,
 				844219D91F913D89000E6CEF /* RegisterViewController.swift in Sources */,
@@ -1046,6 +1059,7 @@
 				844219471F911242000E6CEF /* UIImageView.swift in Sources */,
 				8442195D1F911242000E6CEF /* ParameterEncoding.swift in Sources */,
 				844219D71F913D81000E6CEF /* SelectCityViewController.swift in Sources */,
+				84D444A71F947D1300FE39BD /* FilterTimeViewController.swift in Sources */,
 				844219611F911242000E6CEF /* Result.swift in Sources */,
 				844219DD1F913DBC000E6CEF /* HomeViewController.swift in Sources */,
 				8442196C1F911242000E6CEF /* BFPaperCheckbox.m in Sources */,
@@ -1054,6 +1068,7 @@
 				8442196D1F911242000E6CEF /* NIDropDown.m in Sources */,
 				8442195B1F911242000E6CEF /* NetworkReachabilityManager.swift in Sources */,
 				844219E11F913DD5000E6CEF /* ScheduleViewController.swift in Sources */,
+				84D444A91F947D2600FE39BD /* FilterOtherViewController.swift in Sources */,
 				844219651F911242000E6CEF /* TaskDelegate.swift in Sources */,
 				844219501F911242000E6CEF /* UIImage+Rendering.swift in Sources */,
 				844219601F911242000E6CEF /* ResponseSerialization.swift in Sources */,
@@ -1063,6 +1078,7 @@
 				84CEC2BC1F91108900F141DD /* AppDelegate.swift in Sources */,
 				844219531F911242000E6CEF /* Utils.m in Sources */,
 				844219491F911242000E6CEF /* Global.swift in Sources */,
+				84D444A31F947CF000FE39BD /* FilterActivityViewController.swift in Sources */,
 				8430C57B1F9265FD0055DB2D /* CityCollectionViewCell.swift in Sources */,
 				844219461F911242000E6CEF /* UIFont.swift in Sources */,
 				844219DB1F913D94000E6CEF /* ForgotPasswordViewController.swift in Sources */,
@@ -1235,10 +1251,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Beefitt/Beefitt.entitlements;
 				DEVELOPMENT_TEAM = 68AWSRL435;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Beefitt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ntsoft.Beefitt;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ntsoft.beefitt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dba460b6-31c8-4eb1-8f35-27d0be931cb3";
+				PROVISIONING_PROFILE_SPECIFIER = "Beefitt-dev";
 				SWIFT_OBJC_BRIDGING_HEADER = "Beefitt/Bridget-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
@@ -1250,11 +1269,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Beefitt/Beefitt.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = 68AWSRL435;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Beefitt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ntsoft.Beefitt;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ntsoft.beefitt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "95b152fc-8d42-4f6b-aac1-d01ffa5fe637";
+				PROVISIONING_PROFILE_SPECIFIER = "Beefitt-adhoc";
 				SWIFT_OBJC_BRIDGING_HEADER = "Beefitt/Bridget-Header.h";
 				SWIFT_VERSION = 3.0;
 			};

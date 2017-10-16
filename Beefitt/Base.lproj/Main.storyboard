@@ -271,7 +271,7 @@
                                             <constraint firstAttribute="width" secondItem="bUf-xa-TGq" secondAttribute="height" multiplier="1:1" id="Tcn-6V-ZqW"/>
                                         </constraints>
                                     </imageView>
-                                    <searchBar contentMode="redraw" searchBarStyle="minimal" placeholder="Search location" translatesAutoresizingMaskIntoConstraints="NO" id="YdL-8E-fc8">
+                                    <searchBar contentMode="redraw" searchBarStyle="minimal" placeholder="Search activity" translatesAutoresizingMaskIntoConstraints="NO" id="YdL-8E-fc8">
                                         <rect key="frame" x="8" y="19" width="283" height="44"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -363,6 +363,152 @@
             </objects>
             <point key="canvasLocation" x="4276" y="857"/>
         </scene>
+        <!--Detail Activity View Controller-->
+        <scene sceneID="K0S-Eg-tH2">
+            <objects>
+                <viewController storyboardIdentifier="DetailActivityViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="oka-Gm-j3R" customClass="DetailActivityViewController" customModule="Beefitt" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hfA-Ts-JBb"/>
+                        <viewControllerLayoutGuide type="bottom" id="9ar-ZK-lp3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qed-yS-wTA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="1000"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mXW-ri-ceD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4969" y="1007"/>
+        </scene>
+        <!--Filter Container View Controller-->
+        <scene sceneID="qw8-yf-RXM">
+            <objects>
+                <viewController storyboardIdentifier="FilterContainerViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="87M-9Y-04q" customClass="FilterContainerViewController" customModule="Beefitt" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fB3-Le-3Qn"/>
+                        <viewControllerLayoutGuide type="bottom" id="iAR-9a-aMh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BTw-Ay-cSs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Ao-N8-AZD">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="66"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_nav_bar2.png" translatesAutoresizingMaskIntoConstraints="NO" id="qxI-cb-ScS">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="66"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zjM-Te-hGD">
+                                        <rect key="frame" x="316.5" y="25" width="50.5" height="33"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="33" id="sOU-VO-NNl"/>
+                                            <constraint firstAttribute="width" secondItem="zjM-Te-hGD" secondAttribute="height" multiplier="23:15" id="zJb-br-2Wb"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="X">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="qxI-cb-ScS" firstAttribute="centerX" secondItem="6Ao-N8-AZD" secondAttribute="centerX" id="0wm-MO-mC5"/>
+                                    <constraint firstItem="qxI-cb-ScS" firstAttribute="centerY" secondItem="6Ao-N8-AZD" secondAttribute="centerY" id="Qrf-bb-Ma0"/>
+                                    <constraint firstAttribute="bottom" secondItem="zjM-Te-hGD" secondAttribute="bottom" constant="8" id="SjX-6J-TU9"/>
+                                    <constraint firstItem="qxI-cb-ScS" firstAttribute="width" secondItem="6Ao-N8-AZD" secondAttribute="width" id="TpY-XH-4fg"/>
+                                    <constraint firstAttribute="trailing" secondItem="zjM-Te-hGD" secondAttribute="trailing" constant="8" id="hoa-1S-CnF"/>
+                                    <constraint firstItem="qxI-cb-ScS" firstAttribute="height" secondItem="6Ao-N8-AZD" secondAttribute="height" id="sSZ-rm-sMR"/>
+                                    <constraint firstAttribute="height" constant="66" id="vgG-9S-n0u"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6Ao-N8-AZD" firstAttribute="centerX" secondItem="BTw-Ay-cSs" secondAttribute="centerX" id="hr9-bG-j2U"/>
+                            <constraint firstItem="6Ao-N8-AZD" firstAttribute="width" secondItem="BTw-Ay-cSs" secondAttribute="width" id="kMh-oa-X2w"/>
+                            <constraint firstItem="6Ao-N8-AZD" firstAttribute="top" secondItem="fB3-Le-3Qn" secondAttribute="bottom" constant="-20" id="rqo-Px-RkN"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="41f-Ya-LW5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5716" y="857"/>
+        </scene>
+        <!--Filter Activity View Controller-->
+        <scene sceneID="1a0-G8-Bdy">
+            <objects>
+                <viewController storyboardIdentifier="FilterActivityViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="SWV-XJ-GgP" customClass="FilterActivityViewController" customModule="Beefitt" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xVO-XI-efb"/>
+                        <viewControllerLayoutGuide type="bottom" id="9Or-oj-5nw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="07u-3t-Udk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bOq-Zc-Fsx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6404" y="857"/>
+        </scene>
+        <!--Filter Location View Controller-->
+        <scene sceneID="SdH-ed-8Sr">
+            <objects>
+                <viewController storyboardIdentifier="FilterLocationViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="VUd-uu-UfS" customClass="FilterLocationViewController" customModule="Beefitt" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0fT-Yi-SSk"/>
+                        <viewControllerLayoutGuide type="bottom" id="gUU-2K-dbo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="K10-Ex-ecw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KRe-U7-CMT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7063" y="855"/>
+        </scene>
+        <!--Filter Time View Controller-->
+        <scene sceneID="0eR-sH-YpT">
+            <objects>
+                <viewController storyboardIdentifier="FilterTimeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="pRp-fc-13t" customClass="FilterTimeViewController" customModule="Beefitt" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jnr-jo-Vha"/>
+                        <viewControllerLayoutGuide type="bottom" id="cVH-bi-C6U"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ckb-cb-XFU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="33N-LW-tIU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7704" y="855"/>
+        </scene>
+        <!--Filter Other View Controller-->
+        <scene sceneID="5Ep-0A-NDw">
+            <objects>
+                <viewController storyboardIdentifier="FilterOtherViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="pv5-J8-gw9" customClass="FilterOtherViewController" customModule="Beefitt" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kIF-De-Z9S"/>
+                        <viewControllerLayoutGuide type="bottom" id="ik2-Aj-gi9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CnI-ta-sW1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mJr-Ah-tIO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8343" y="854"/>
+        </scene>
         <!--My activity-->
         <scene sceneID="Z5d-gR-OIv">
             <objects>
@@ -374,13 +520,90 @@
                     <view key="view" contentMode="scaleToFill" id="7Tb-kt-8vN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tNC-rx-j6y">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="105"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_nav_bar2.png" translatesAutoresizingMaskIntoConstraints="NO" id="4Nt-sJ-8Jn">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="105"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default_user.png" translatesAutoresizingMaskIntoConstraints="NO" id="1z2-tc-WvF">
+                                        <rect key="frame" x="311" y="22" width="38" height="38"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="38" id="iYm-mJ-5Bl"/>
+                                            <constraint firstAttribute="width" secondItem="1z2-tc-WvF" secondAttribute="height" multiplier="1:1" id="vgT-tX-bMB"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Activity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yiv-5Y-E1l">
+                                        <rect key="frame" x="145" y="30.5" width="84.5" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="4Nt-sJ-8Jn" firstAttribute="centerX" secondItem="tNC-rx-j6y" secondAttribute="centerX" id="BfJ-US-oOf"/>
+                                    <constraint firstAttribute="height" constant="105" id="Hha-NI-am8"/>
+                                    <constraint firstItem="4Nt-sJ-8Jn" firstAttribute="height" secondItem="tNC-rx-j6y" secondAttribute="height" id="VNf-4a-z5H"/>
+                                    <constraint firstItem="4Nt-sJ-8Jn" firstAttribute="centerY" secondItem="tNC-rx-j6y" secondAttribute="centerY" id="cGR-dv-ovl"/>
+                                    <constraint firstAttribute="trailing" secondItem="1z2-tc-WvF" secondAttribute="trailing" constant="26" id="fSa-6x-xOL"/>
+                                    <constraint firstItem="1z2-tc-WvF" firstAttribute="top" secondItem="tNC-rx-j6y" secondAttribute="top" constant="22" id="fT3-hS-Nmb"/>
+                                    <constraint firstItem="4Nt-sJ-8Jn" firstAttribute="width" secondItem="tNC-rx-j6y" secondAttribute="width" id="kmR-Hg-kEK"/>
+                                    <constraint firstItem="Yiv-5Y-E1l" firstAttribute="centerY" secondItem="1z2-tc-WvF" secondAttribute="centerY" id="lKH-gu-Tw5"/>
+                                    <constraint firstItem="Yiv-5Y-E1l" firstAttribute="centerX" secondItem="tNC-rx-j6y" secondAttribute="centerX" id="lM2-kH-UUF"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tNC-rx-j6y" firstAttribute="width" secondItem="7Tb-kt-8vN" secondAttribute="width" id="2jh-hQ-Pil"/>
+                            <constraint firstItem="tNC-rx-j6y" firstAttribute="centerX" secondItem="7Tb-kt-8vN" secondAttribute="centerX" id="B8e-u6-lJP"/>
+                            <constraint firstItem="tNC-rx-j6y" firstAttribute="top" secondItem="Gcq-Rf-1J5" secondAttribute="bottom" constant="-20" id="Vkc-M0-ERx"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="My activity" image="my_activity" id="i9I-KW-qmc"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1fa-wr-Oab" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3786" y="1525"/>
+            <point key="canvasLocation" x="3662" y="1525"/>
+        </scene>
+        <!--My Activity View Controller-->
+        <scene sceneID="AqF-Mw-DZb">
+            <objects>
+                <viewController storyboardIdentifier="MyActivityViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="jvy-nH-EW0" customClass="MyActivityViewController" customModule="Beefitt" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="e6P-jc-Moq"/>
+                        <viewControllerLayoutGuide type="bottom" id="334-Me-4rc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EUh-aA-I1R">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="eFl-21-16h">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="jvy-nH-EW0" id="8f6-pI-t7K"/>
+                                    <outlet property="delegate" destination="jvy-nH-EW0" id="WgY-sW-t2L"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="eFl-21-16h" firstAttribute="width" secondItem="EUh-aA-I1R" secondAttribute="width" id="JXn-Es-x3e"/>
+                            <constraint firstItem="eFl-21-16h" firstAttribute="height" secondItem="EUh-aA-I1R" secondAttribute="height" id="VtA-3Y-Dgw"/>
+                            <constraint firstItem="eFl-21-16h" firstAttribute="centerY" secondItem="EUh-aA-I1R" secondAttribute="centerY" id="fAE-VN-rSK"/>
+                            <constraint firstItem="eFl-21-16h" firstAttribute="centerX" secondItem="EUh-aA-I1R" secondAttribute="centerX" id="syc-6X-mE9"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="eFl-21-16h" id="jHA-pv-bdJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SLd-mK-zdM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4318" y="1524"/>
         </scene>
         <!--More-->
         <scene sceneID="yDH-UW-Zt1">
