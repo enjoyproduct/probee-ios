@@ -15,6 +15,9 @@ class DetailActivityViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    @IBAction func onClickBack(_ sender: Any) {
+        self.dismiss(animated: true)
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

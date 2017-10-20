@@ -82,6 +82,9 @@ class FilterContainerViewController: UIViewController, CarbonTabSwipeNavigationD
     func barPosition(for carbonTabSwipeNavigation: CarbonTabSwipeNavigation) -> UIBarPosition {
         return UIBarPosition.top; // default UIBarPositionTop
     }
+    @IBAction func onClickBack(_ sender: Any) {
+        self.dismiss(animated: true)
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
