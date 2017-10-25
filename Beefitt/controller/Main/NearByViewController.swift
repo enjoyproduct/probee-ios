@@ -78,7 +78,7 @@ extension NearByViewController : UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ActivityTableViewCell") as! ActivityTableViewCell
 //        let activity = self.arrActivity[indexPath.row]
-        
+        cell.ivReservedWidthConstraint.constant = 0
         return cell
     }
     

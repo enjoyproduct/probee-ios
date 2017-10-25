@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4D00480FCA3F6103A0D3068C /* Pods_BeefittTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD9C2BD192975580BABE702 /* Pods_BeefittTests.framework */; };
-		841141C01FA0269500517B46 /* DLRadioButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841141BF1FA0269500517B46 /* DLRadioButton.framework */; };
-		841141C11FA0269500517B46 /* DLRadioButton.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 841141BF1FA0269500517B46 /* DLRadioButton.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8430C5651F9228D30055DB2D /* bg_login.png in Resources */ = {isa = PBXBuildFile; fileRef = 8430C5641F9228D30055DB2D /* bg_login.png */; };
 		8430C5681F9241860055DB2D /* NearbyContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8430C5671F9241860055DB2D /* NearbyContainerViewController.swift */; };
 		8430C56E1F924C5A0055DB2D /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 8430C5691F924C5A0055DB2D /* calendar.png */; };
@@ -131,6 +129,15 @@
 		844219EB1F913E7D000E6CEF /* DetailActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844219EA1F913E7D000E6CEF /* DetailActivityViewController.swift */; };
 		844219ED1F913EBE000E6CEF /* FilterContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844219EC1F913EBE000E6CEF /* FilterContainerViewController.swift */; };
 		844219EF1F9141EE000E6CEF /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844219EE1F9141EE000E6CEF /* MainTabBarViewController.swift */; };
+		846A278E1FA0507A0022A0A0 /* TNCircularRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 846A277B1FA0507A0022A0A0 /* TNCircularRadioButton.m */; };
+		846A278F1FA0507A0022A0A0 /* TNCircularRadioButtonData.m in Sources */ = {isa = PBXBuildFile; fileRef = 846A277D1FA0507A0022A0A0 /* TNCircularRadioButtonData.m */; };
+		846A27901FA0507A0022A0A0 /* TNImageRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 846A277F1FA0507A0022A0A0 /* TNImageRadioButton.m */; };
+		846A27911FA0507A0022A0A0 /* TNImageRadioButtonData.m in Sources */ = {isa = PBXBuildFile; fileRef = 846A27811FA0507A0022A0A0 /* TNImageRadioButtonData.m */; };
+		846A27921FA0507A0022A0A0 /* TNRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 846A27831FA0507A0022A0A0 /* TNRadioButton.m */; };
+		846A27931FA0507A0022A0A0 /* TNRadioButtonData.m in Sources */ = {isa = PBXBuildFile; fileRef = 846A27851FA0507A0022A0A0 /* TNRadioButtonData.m */; };
+		846A27941FA0507A0022A0A0 /* TNRadioButtonGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 846A27881FA0507A0022A0A0 /* TNRadioButtonGroup.m */; };
+		846A27951FA0507A0022A0A0 /* TNRectangularRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 846A278B1FA0507A0022A0A0 /* TNRectangularRadioButton.m */; };
+		846A27961FA0507A0022A0A0 /* TNRectangularRadioButtonData.m in Sources */ = {isa = PBXBuildFile; fileRef = 846A278D1FA0507A0022A0A0 /* TNRectangularRadioButtonData.m */; };
 		84CEC2BC1F91108900F141DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CEC2BB1F91108900F141DD /* AppDelegate.swift */; };
 		84CEC2C11F91108900F141DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CEC2BF1F91108900F141DD /* Main.storyboard */; };
 		84CEC2C31F91108900F141DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84CEC2C21F91108900F141DD /* Assets.xcassets */; };
@@ -168,13 +175,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		841141C21FA0269500517B46 /* Embed Frameworks */ = {
+		841141C71FA0438100517B46 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				841141C11FA0269500517B46 /* DLRadioButton.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -187,7 +193,6 @@
 		343D6210D2621CF588B160BE /* Pods_Beefitt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Beefitt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D8635F85B8B0020B063EC04 /* Pods-BeefittTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeefittTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeefittTests/Pods-BeefittTests.release.xcconfig"; sourceTree = "<group>"; };
 		62080E669364A5478012127F /* Pods-Beefitt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beefitt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Beefitt/Pods-Beefitt.debug.xcconfig"; sourceTree = "<group>"; };
-		841141BF1FA0269500517B46 /* DLRadioButton.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DLRadioButton.framework; path = Beefitt/widget/DLRadioButton.framework; sourceTree = "<group>"; };
 		8430C5641F9228D30055DB2D /* bg_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_login.png; sourceTree = "<group>"; };
 		8430C5661F922E740055DB2D /* Beefitt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Beefitt.entitlements; sourceTree = "<group>"; };
 		8430C5671F9241860055DB2D /* NearbyContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearbyContainerViewController.swift; sourceTree = "<group>"; };
@@ -314,6 +319,26 @@
 		844219EA1F913E7D000E6CEF /* DetailActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailActivityViewController.swift; sourceTree = "<group>"; };
 		844219EC1F913EBE000E6CEF /* FilterContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterContainerViewController.swift; sourceTree = "<group>"; };
 		844219EE1F9141EE000E6CEF /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		846A277A1FA0507A0022A0A0 /* TNCircularRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNCircularRadioButton.h; sourceTree = "<group>"; };
+		846A277B1FA0507A0022A0A0 /* TNCircularRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNCircularRadioButton.m; sourceTree = "<group>"; };
+		846A277C1FA0507A0022A0A0 /* TNCircularRadioButtonData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNCircularRadioButtonData.h; sourceTree = "<group>"; };
+		846A277D1FA0507A0022A0A0 /* TNCircularRadioButtonData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNCircularRadioButtonData.m; sourceTree = "<group>"; };
+		846A277E1FA0507A0022A0A0 /* TNImageRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNImageRadioButton.h; sourceTree = "<group>"; };
+		846A277F1FA0507A0022A0A0 /* TNImageRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNImageRadioButton.m; sourceTree = "<group>"; };
+		846A27801FA0507A0022A0A0 /* TNImageRadioButtonData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNImageRadioButtonData.h; sourceTree = "<group>"; };
+		846A27811FA0507A0022A0A0 /* TNImageRadioButtonData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNImageRadioButtonData.m; sourceTree = "<group>"; };
+		846A27821FA0507A0022A0A0 /* TNRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNRadioButton.h; sourceTree = "<group>"; };
+		846A27831FA0507A0022A0A0 /* TNRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNRadioButton.m; sourceTree = "<group>"; };
+		846A27841FA0507A0022A0A0 /* TNRadioButtonData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNRadioButtonData.h; sourceTree = "<group>"; };
+		846A27851FA0507A0022A0A0 /* TNRadioButtonData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNRadioButtonData.m; sourceTree = "<group>"; };
+		846A27861FA0507A0022A0A0 /* TNRadioButtonDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNRadioButtonDelegate.h; sourceTree = "<group>"; };
+		846A27871FA0507A0022A0A0 /* TNRadioButtonGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNRadioButtonGroup.h; sourceTree = "<group>"; };
+		846A27881FA0507A0022A0A0 /* TNRadioButtonGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNRadioButtonGroup.m; sourceTree = "<group>"; };
+		846A27891FA0507A0022A0A0 /* TNRadioButtonGroupProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNRadioButtonGroupProtocol.h; sourceTree = "<group>"; };
+		846A278A1FA0507A0022A0A0 /* TNRectangularRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNRectangularRadioButton.h; sourceTree = "<group>"; };
+		846A278B1FA0507A0022A0A0 /* TNRectangularRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNRectangularRadioButton.m; sourceTree = "<group>"; };
+		846A278C1FA0507A0022A0A0 /* TNRectangularRadioButtonData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNRectangularRadioButtonData.h; sourceTree = "<group>"; };
+		846A278D1FA0507A0022A0A0 /* TNRectangularRadioButtonData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNRectangularRadioButtonData.m; sourceTree = "<group>"; };
 		84CEC2B81F91108900F141DD /* Beefitt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beefitt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CEC2BB1F91108900F141DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84CEC2C01F91108900F141DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -344,7 +369,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				841141C01FA0269500517B46 /* DLRadioButton.framework in Frameworks */,
 				F41E99216E04C90596AD3FE1 /* Pods_Beefitt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -547,6 +571,7 @@
 		8442193A1F911242000E6CEF /* widget */ = {
 			isa = PBXGroup;
 			children = (
+				846A27791FA0507A0022A0A0 /* TNRadioButtonGroup */,
 				8442193B1F911242000E6CEF /* Checkbox */,
 				8442193E1F911242000E6CEF /* Dropdown */,
 			);
@@ -694,10 +719,36 @@
 			path = Setting;
 			sourceTree = "<group>";
 		};
+		846A27791FA0507A0022A0A0 /* TNRadioButtonGroup */ = {
+			isa = PBXGroup;
+			children = (
+				846A277A1FA0507A0022A0A0 /* TNCircularRadioButton.h */,
+				846A277B1FA0507A0022A0A0 /* TNCircularRadioButton.m */,
+				846A277C1FA0507A0022A0A0 /* TNCircularRadioButtonData.h */,
+				846A277D1FA0507A0022A0A0 /* TNCircularRadioButtonData.m */,
+				846A277E1FA0507A0022A0A0 /* TNImageRadioButton.h */,
+				846A277F1FA0507A0022A0A0 /* TNImageRadioButton.m */,
+				846A27801FA0507A0022A0A0 /* TNImageRadioButtonData.h */,
+				846A27811FA0507A0022A0A0 /* TNImageRadioButtonData.m */,
+				846A27821FA0507A0022A0A0 /* TNRadioButton.h */,
+				846A27831FA0507A0022A0A0 /* TNRadioButton.m */,
+				846A27841FA0507A0022A0A0 /* TNRadioButtonData.h */,
+				846A27851FA0507A0022A0A0 /* TNRadioButtonData.m */,
+				846A27861FA0507A0022A0A0 /* TNRadioButtonDelegate.h */,
+				846A27871FA0507A0022A0A0 /* TNRadioButtonGroup.h */,
+				846A27881FA0507A0022A0A0 /* TNRadioButtonGroup.m */,
+				846A27891FA0507A0022A0A0 /* TNRadioButtonGroupProtocol.h */,
+				846A278A1FA0507A0022A0A0 /* TNRectangularRadioButton.h */,
+				846A278B1FA0507A0022A0A0 /* TNRectangularRadioButton.m */,
+				846A278C1FA0507A0022A0A0 /* TNRectangularRadioButtonData.h */,
+				846A278D1FA0507A0022A0A0 /* TNRectangularRadioButtonData.m */,
+			);
+			path = TNRadioButtonGroup;
+			sourceTree = "<group>";
+		};
 		84CEC2AF1F91108900F141DD = {
 			isa = PBXGroup;
 			children = (
-				841141BF1FA0269500517B46 /* DLRadioButton.framework */,
 				84CEC2BA1F91108900F141DD /* Beefitt */,
 				84CEC2B91F91108900F141DD /* Products */,
 				21EFECE9E46403B58E8FD50B /* Pods */,
@@ -750,7 +801,7 @@
 				84CEC2B61F91108900F141DD /* Resources */,
 				8651B385E2DE328A1870DBD9 /* [CP] Embed Pods Frameworks */,
 				1243737FC3CA127F9C96EAAA /* [CP] Copy Pods Resources */,
-				841141C21FA0269500517B46 /* Embed Frameworks */,
+				841141C71FA0438100517B46 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1083,15 +1134,22 @@
 				844219631F911242000E6CEF /* SessionDelegate.swift in Sources */,
 				8442194B1F911242000E6CEF /* ColorUtils.swift in Sources */,
 				844219481F911242000E6CEF /* UILabel.swift in Sources */,
+				846A27941FA0507A0022A0A0 /* TNRadioButtonGroup.m in Sources */,
+				846A27911FA0507A0022A0A0 /* TNImageRadioButtonData.m in Sources */,
 				8442194C1F911242000E6CEF /* FileDownloader.swift in Sources */,
+				846A278E1FA0507A0022A0A0 /* TNCircularRadioButton.m in Sources */,
+				846A27931FA0507A0022A0A0 /* TNRadioButtonData.m in Sources */,
 				8442196B1F911242000E6CEF /* SwiftyJSON.swift in Sources */,
 				84FAB3D31F9F874F00F64A0D /* NeedHelpViewController.swift in Sources */,
 				844219DF1F913DC9000E6CEF /* NearByViewController.swift in Sources */,
 				8442195E1F911242000E6CEF /* Request.swift in Sources */,
 				84FAB3CD1F9F871400F64A0D /* PaymentsViewController.swift in Sources */,
+				846A27951FA0507A0022A0A0 /* TNRectangularRadioButton.m in Sources */,
 				8442194E1F911242000E6CEF /* StringUtils.swift in Sources */,
 				844219591F911242000E6CEF /* DispatchQueue+Alamofire.swift in Sources */,
 				84FAB3CF1F9F872800F64A0D /* TransactionViewController.swift in Sources */,
+				846A278F1FA0507A0022A0A0 /* TNCircularRadioButtonData.m in Sources */,
+				846A27921FA0507A0022A0A0 /* TNRadioButton.m in Sources */,
 				844219E31F913DEA000E6CEF /* MyActivityViewController.swift in Sources */,
 				844219441F911242000E6CEF /* String.swift in Sources */,
 				844219ED1F913EBE000E6CEF /* FilterContainerViewController.swift in Sources */,
@@ -1115,6 +1173,8 @@
 				8442196D1F911242000E6CEF /* NIDropDown.m in Sources */,
 				8442195B1F911242000E6CEF /* NetworkReachabilityManager.swift in Sources */,
 				844219E11F913DD5000E6CEF /* ScheduleViewController.swift in Sources */,
+				846A27961FA0507A0022A0A0 /* TNRectangularRadioButtonData.m in Sources */,
+				846A27901FA0507A0022A0A0 /* TNImageRadioButton.m in Sources */,
 				84D444A91F947D2600FE39BD /* FilterOtherViewController.swift in Sources */,
 				844219651F911242000E6CEF /* TaskDelegate.swift in Sources */,
 				844219501F911242000E6CEF /* UIImage+Rendering.swift in Sources */,
@@ -1303,9 +1363,32 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Beefitt/widget",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Beefitt",
 				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				INFOPLIST_FILE = Beefitt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"CarbonKit\"",
+					"-framework",
+					"\"IHKeyboardAvoiding\"",
+					"-framework",
+					"\"JCTagListView\"",
+					"-framework",
+					"\"JSQMessagesViewController\"",
+					"-framework",
+					"\"JSQSystemSoundPlayer\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"SVProgressHUD\"",
+					"-framework",
+					"\"SVPullToRefresh\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ntsoft.beefitt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "dba460b6-31c8-4eb1-8f35-27d0be931cb3";
@@ -1327,9 +1410,32 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Beefitt/widget",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Beefitt",
 				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				INFOPLIST_FILE = Beefitt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"CarbonKit\"",
+					"-framework",
+					"\"IHKeyboardAvoiding\"",
+					"-framework",
+					"\"JCTagListView\"",
+					"-framework",
+					"\"JSQMessagesViewController\"",
+					"-framework",
+					"\"JSQSystemSoundPlayer\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"SVProgressHUD\"",
+					"-framework",
+					"\"SVPullToRefresh\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ntsoft.beefitt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "95b152fc-8d42-4f6b-aac1-d01ffa5fe637";

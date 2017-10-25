@@ -16,4 +16,6 @@
 #import "Utils.h"
 #import "BFPaperCheckbox.h"
 #import "NIDropDown.h"
+#import "TNRadioButtonGroup.h"
+
 #endif /* Bridget_Header_h */

@@ -19,6 +19,13 @@ class ProfileSettingViewController: UIViewController {
     @IBAction func onClickClose(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }
+    
+    @IBAction func onClickLogout(_ sender: Any) {
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "launchNavigationController") as! UINavigationController
+        appDelegate.chageRootViewController(newRootViewController: vc)
+        self.dismiss(animated: true, completion: nil)
+
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

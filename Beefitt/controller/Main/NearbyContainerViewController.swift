@@ -38,11 +38,13 @@ class NearbyContainerViewController: UIViewController, CarbonTabSwipeNavigationD
         //set indicator color
         carbonTabSwiftNavigation?.setIndicatorColor(UIColor.white)
         //set tab width
-        for i in 0..<self.titles.count  {
-            carbonTabSwiftNavigation?.carbonSegmentedControl?.setWidth(getScreenSize().width / 5, forSegmentAt: i)
-        }
+        carbonTabSwiftNavigation?.carbonSegmentedControl?.setWidth(getScreenSize().width / 7, forSegmentAt: 0)
+        carbonTabSwiftNavigation?.carbonSegmentedControl?.setWidth(getScreenSize().width / 7 * 2, forSegmentAt: 1)
+        carbonTabSwiftNavigation?.carbonSegmentedControl?.setWidth(getScreenSize().width / 7, forSegmentAt: 2)
+        carbonTabSwiftNavigation?.carbonSegmentedControl?.setWidth(getScreenSize().width / 7, forSegmentAt: 3)
+        carbonTabSwiftNavigation?.carbonSegmentedControl?.setWidth(getScreenSize().width / 7 * 2, forSegmentAt: 4)
         //customize segment color
-        let font = UIFont.systemFont(ofSize: 13)
+        let font = UIFont.systemFont(ofSize: 12)
         carbonTabSwiftNavigation?.setNormalColor(Constant.lightGray.withAlphaComponent(0.6), font: font)
         carbonTabSwiftNavigation?.setSelectedColor(UIColor.white, font: font)
         ///add constraint

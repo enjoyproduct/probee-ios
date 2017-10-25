@@ -82,8 +82,10 @@ extension MyActivityViewController : UITableViewDataSource {
         //        let activity = self.arrActivity[indexPath.row]
         if self.type == 0 {
             cell.ivReserved.isHidden = false
+            cell.ivReservedWidthConstraint.constant = 37
         } else {
             cell.ivReserved.isHidden = true
+            cell.ivReservedWidthConstraint.constant = 0
         }
         return cell
     }
