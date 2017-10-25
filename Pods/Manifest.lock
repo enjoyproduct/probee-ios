@@ -1,6 +1,7 @@
 PODS:
   - CarbonKit (2.2.2)
   - IHKeyboardAvoiding (4.1)
+  - JCTagListView (1.0.2)
   - JSQMessagesViewController (7.3.5):
     - JSQSystemSoundPlayer (~> 2.0.1)
   - JSQSystemSoundPlayer (2.0.1)
@@ -13,6 +14,7 @@ PODS:
 DEPENDENCIES:
   - CarbonKit
   - IHKeyboardAvoiding
+  - JCTagListView
   - JSQMessagesViewController
   - SDWebImage
   - SVProgressHUD
@@ -21,12 +23,13 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   CarbonKit: 0dec4738fa489b4c043a5f850c27fd0dbefb57cc
   IHKeyboardAvoiding: 5f42b8ff1f64144ea425b1954e4311eb6bf9077a
+  JCTagListView: 963c9f5a867e2416e28bcf056e32c572082d5446
   JSQMessagesViewController: 6587f56aedbcb150a8ba1d968e1ef58b1bc758b7
   JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
   SDWebImage: cb6f9f266a9977741efcbc21e618e8be3734c774
   SVProgressHUD: db27c54e6e18bc903341661fc9feb55e04905cc4
   SVPullToRefresh: ba2e718695a43253d8bea6852d2960097dc15d8c
 
-PODFILE CHECKSUM: aceb69bcf5084772394c6fde0877e766245861ba
+PODFILE CHECKSUM: 4ca94fbf7713a3487c4129a5d947b127ec0fb913
 
 COCOAPODS: 1.0.1

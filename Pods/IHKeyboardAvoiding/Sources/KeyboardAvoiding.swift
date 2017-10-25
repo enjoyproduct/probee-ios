@@ -14,19 +14,19 @@ import UIKit
     case minimumDelayed
 }
 
-@objc open class KeyboardAvoiding: NSObject {
+@objc public class KeyboardAvoiding: NSObject {
     
-    fileprivate static var minimumAnimationDuration: CGFloat = 0.0
-    fileprivate static var lastNotification: Foundation.Notification!
-    fileprivate static var updatedConstraints = [NSLayoutConstraint]()
-    fileprivate static var updatedConstraintConstants = [CGFloat]()
-    fileprivate(set) static var isKeyboardVisible = false
-    fileprivate static var avoidingViewUsesAutoLayout = false
-    fileprivate static var triggerViews = [UIView]()
+    private static var minimumAnimationDuration: CGFloat = 0.0
+    private static var lastNotification: Foundation.Notification!
+    private static var updatedConstraints = [NSLayoutConstraint]()
+    private static var updatedConstraintConstants = [CGFloat]()
+    private(set) static var isKeyboardVisible = false
+    private static var avoidingViewUsesAutoLayout = false
+    private static var triggerViews = [UIView]()
     
-    open static var buffer: CGFloat = 0.0
-    open static var paddingForCurrentAvoidingView: CGFloat = 0.0
-    open static var padding: CGFloat = 0.0 {
+    public static var buffer: CGFloat = 0.0
+    public static var paddingForCurrentAvoidingView: CGFloat = 0.0
+    public static var padding: CGFloat = 0.0 {
         willSet {
             if self.paddingForCurrentAvoidingView == newValue {
                 // if paddingCurrent has been set explicitly, dont reset it
@@ -34,8 +34,8 @@ import UIKit
             }
         }
     }
-    open static var keyboardAvoidingMode = KeyboardAvoidingMode.minimum
-    open static var avoidingBlock: ((Bool, CGFloat, CGFloat, UIViewAnimationOptions)->Void)? {
+    public static var keyboardAvoidingMode = KeyboardAvoidingMode.minimum
+    public static var avoidingBlock: ((Bool, CGFloat, CGFloat, UIViewAnimationOptions)->Void)? {
         willSet {
             self.initialise()
         }
@@ -46,8 +46,8 @@ import UIKit
             self.deinitialise()
         }
     }
-    fileprivate static var _avoidingView: UIView?
-    open static var avoidingView: UIView? {
+    private static var _avoidingView: UIView?
+    public static var avoidingView: UIView? {
         get {
             return _avoidingView
         }
@@ -233,11 +233,11 @@ import UIKit
     }
     
     // publicly, the triggerView is reqiured if the avoidingView isn't nil
-    open class func setAvoidingView(_ avoidingView: UIView?, withTriggerView triggerView: UIView) {
+    public class func setAvoidingView(_ avoidingView: UIView?, withTriggerView triggerView: UIView) {
         self.setAvoidingView(avoidingView, withOptionalTriggerView: triggerView)
     }
     
-    fileprivate class func setAvoidingView(_ avoidingView: UIView?, withOptionalTriggerView triggerView: UIView?) {
+    private class func setAvoidingView(_ avoidingView: UIView?, withOptionalTriggerView triggerView: UIView?) {
         self.initialise()
         
         self._avoidingView = avoidingView
@@ -257,24 +257,24 @@ import UIKit
         self.deinitialise()
     }
     
-    open class func addTriggerView(_ triggerView: UIView) {
+    public class func addTriggerView(_ triggerView: UIView) {
         self.triggerViews.append(triggerView)
     }
     
-    open class func removeTriggerView(_ triggerView: UIView) {
+    public class func removeTriggerView(_ triggerView: UIView) {
         if let index = triggerViews.index(of: triggerView) as Int! {
             self.triggerViews.remove(at: index)
         }
     }
     
-    open class func removeAll() {
+    public class func removeAll() {
         self.triggerViews.removeAll()
         self.avoidingView = nil
         self.avoidingBlock = nil
     }
     
     
-    fileprivate class func initialise() {
+    private class func initialise() {
         // make sure we only add this once
         if self.avoidingBlock == nil && self.avoidingView == nil {
             NotificationCenter.default.addObserver(self, selector: #selector(KeyboardAvoiding.applicationDidEnterBackground(_:)), name: NSNotification.Name.UIApplicationDidEnterBackground, object: nil)

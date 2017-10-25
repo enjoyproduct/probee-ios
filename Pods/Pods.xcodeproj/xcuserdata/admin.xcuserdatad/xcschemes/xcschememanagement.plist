@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>JCTagListView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>JSQMessagesViewController.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -57,11 +62,6 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>05B7A0E1BA426C4285171C3E85CD93C1</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>071B2BCFF3964C9C6875DC4531E78EFE</key>
 		<dict>
 			<key>primary</key>
@@ -72,7 +72,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4F8A757F77D462D7DC5E7717FD1DB7D8</key>
+		<key>35E722007DA4A7E758D44EA5F9A209AD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -92,17 +92,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7438F80C2365533DA4417DEC05335D01</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C5B8F7479A3B48A1F3CDABE32CCAED4D</key>
+		<key>7A47CA402CEE67CBE065F024D7D5D957</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>D1E481A5E532DFC58E8BDDB0A73B0322</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DB8FA771740121D599930DB480871D01</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F14A26DE60C484D7911C9CB162ECFEE0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FF5759D1CDA793471EBD4B2D93E62930</key>
 		<dict>
 			<key>primary</key>
 			<true/>

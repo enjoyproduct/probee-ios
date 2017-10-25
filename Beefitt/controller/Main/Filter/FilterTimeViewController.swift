@@ -7,13 +7,18 @@
 //
 
 import UIKit
+import DLRadioButton
 
 class FilterTimeViewController: UIViewController {
 
+    @IBOutlet weak var rdEarlyMorning: DLRadioButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        self.rdEarlyMorning.isMultipleSelectionEnabled = true
+    }
+    @IBAction func onClickOption(_ sender: DLRadioButton) {
     }
 
     override func didReceiveMemoryWarning() {

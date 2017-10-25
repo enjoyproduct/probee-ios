@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4D00480FCA3F6103A0D3068C /* Pods_BeefittTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD9C2BD192975580BABE702 /* Pods_BeefittTests.framework */; };
+		841141C01FA0269500517B46 /* DLRadioButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841141BF1FA0269500517B46 /* DLRadioButton.framework */; };
+		841141C11FA0269500517B46 /* DLRadioButton.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 841141BF1FA0269500517B46 /* DLRadioButton.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8430C5651F9228D30055DB2D /* bg_login.png in Resources */ = {isa = PBXBuildFile; fileRef = 8430C5641F9228D30055DB2D /* bg_login.png */; };
 		8430C5681F9241860055DB2D /* NearbyContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8430C5671F9241860055DB2D /* NearbyContainerViewController.swift */; };
 		8430C56E1F924C5A0055DB2D /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 8430C5691F924C5A0055DB2D /* calendar.png */; };
@@ -137,6 +139,13 @@
 		84D444A51F947D0600FE39BD /* FilterLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D444A41F947D0600FE39BD /* FilterLocationViewController.swift */; };
 		84D444A71F947D1300FE39BD /* FilterTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D444A61F947D1300FE39BD /* FilterTimeViewController.swift */; };
 		84D444A91F947D2600FE39BD /* FilterOtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D444A81F947D2600FE39BD /* FilterOtherViewController.swift */; };
+		84FAB3CB1F9F86FE00F64A0D /* ProfileSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FAB3CA1F9F86FE00F64A0D /* ProfileSettingViewController.swift */; };
+		84FAB3CD1F9F871400F64A0D /* PaymentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FAB3CC1F9F871400F64A0D /* PaymentsViewController.swift */; };
+		84FAB3CF1F9F872800F64A0D /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FAB3CE1F9F872800F64A0D /* TransactionViewController.swift */; };
+		84FAB3D11F9F874000F64A0D /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FAB3D01F9F874000F64A0D /* ContactUsViewController.swift */; };
+		84FAB3D31F9F874F00F64A0D /* NeedHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FAB3D21F9F874F00F64A0D /* NeedHelpViewController.swift */; };
+		84FAB3D51F9F875A00F64A0D /* PartyServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FAB3D41F9F875A00F64A0D /* PartyServiceViewController.swift */; };
+		84FAB3D71F9F93A200F64A0D /* btn_molpay.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FAB3D61F9F93A200F64A0D /* btn_molpay.png */; };
 		F41E99216E04C90596AD3FE1 /* Pods_Beefitt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 343D6210D2621CF588B160BE /* Pods_Beefitt.framework */; };
 		FDA5866BA40361F5E5FE14AF /* Pods_BeefittUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07359239D18CFE183BABDA67 /* Pods_BeefittUITests.framework */; };
 /* End PBXBuildFile section */
@@ -158,12 +167,27 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		841141C21FA0269500517B46 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				841141C11FA0269500517B46 /* DLRadioButton.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		07359239D18CFE183BABDA67 /* Pods_BeefittUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeefittUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22E24A695D1AD1AF2E22A33F /* Pods-Beefitt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beefitt.release.xcconfig"; path = "Pods/Target Support Files/Pods-Beefitt/Pods-Beefitt.release.xcconfig"; sourceTree = "<group>"; };
 		343D6210D2621CF588B160BE /* Pods_Beefitt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Beefitt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D8635F85B8B0020B063EC04 /* Pods-BeefittTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeefittTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeefittTests/Pods-BeefittTests.release.xcconfig"; sourceTree = "<group>"; };
 		62080E669364A5478012127F /* Pods-Beefitt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beefitt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Beefitt/Pods-Beefitt.debug.xcconfig"; sourceTree = "<group>"; };
+		841141BF1FA0269500517B46 /* DLRadioButton.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DLRadioButton.framework; path = Beefitt/widget/DLRadioButton.framework; sourceTree = "<group>"; };
 		8430C5641F9228D30055DB2D /* bg_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_login.png; sourceTree = "<group>"; };
 		8430C5661F922E740055DB2D /* Beefitt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Beefitt.entitlements; sourceTree = "<group>"; };
 		8430C5671F9241860055DB2D /* NearbyContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearbyContainerViewController.swift; sourceTree = "<group>"; };
@@ -302,6 +326,13 @@
 		84D444A41F947D0600FE39BD /* FilterLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterLocationViewController.swift; sourceTree = "<group>"; };
 		84D444A61F947D1300FE39BD /* FilterTimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterTimeViewController.swift; sourceTree = "<group>"; };
 		84D444A81F947D2600FE39BD /* FilterOtherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterOtherViewController.swift; sourceTree = "<group>"; };
+		84FAB3CA1F9F86FE00F64A0D /* ProfileSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileSettingViewController.swift; sourceTree = "<group>"; };
+		84FAB3CC1F9F871400F64A0D /* PaymentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentsViewController.swift; sourceTree = "<group>"; };
+		84FAB3CE1F9F872800F64A0D /* TransactionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
+		84FAB3D01F9F874000F64A0D /* ContactUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		84FAB3D21F9F874F00F64A0D /* NeedHelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeedHelpViewController.swift; sourceTree = "<group>"; };
+		84FAB3D41F9F875A00F64A0D /* PartyServiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyServiceViewController.swift; sourceTree = "<group>"; };
+		84FAB3D61F9F93A200F64A0D /* btn_molpay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_molpay.png; sourceTree = "<group>"; };
 		AAD9C2BD192975580BABE702 /* Pods_BeefittTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeefittTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7719D9F76C10521F791866 /* Pods-BeefittUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeefittUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeefittUITests/Pods-BeefittUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D0D1A1EEE1CCF8B4F0B8F2F2 /* Pods-BeefittUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeefittUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeefittUITests/Pods-BeefittUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -313,6 +344,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841141C01FA0269500517B46 /* DLRadioButton.framework in Frameworks */,
 				F41E99216E04C90596AD3FE1 /* Pods_Beefitt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -542,6 +574,7 @@
 		8442196F1F9139AE000E6CEF /* images */ = {
 			isa = PBXGroup;
 			children = (
+				84FAB3D61F9F93A200F64A0D /* btn_molpay.png */,
 				8430C5731F92519B0055DB2D /* btn_7days.png */,
 				8430C5741F92519B0055DB2D /* btn_14days.png */,
 				8430C5751F92519B0055DB2D /* btn_30days.png */,
@@ -651,6 +684,12 @@
 		844219D11F913BD7000E6CEF /* Setting */ = {
 			isa = PBXGroup;
 			children = (
+				84FAB3CA1F9F86FE00F64A0D /* ProfileSettingViewController.swift */,
+				84FAB3CC1F9F871400F64A0D /* PaymentsViewController.swift */,
+				84FAB3CE1F9F872800F64A0D /* TransactionViewController.swift */,
+				84FAB3D01F9F874000F64A0D /* ContactUsViewController.swift */,
+				84FAB3D21F9F874F00F64A0D /* NeedHelpViewController.swift */,
+				84FAB3D41F9F875A00F64A0D /* PartyServiceViewController.swift */,
 			);
 			path = Setting;
 			sourceTree = "<group>";
@@ -658,6 +697,7 @@
 		84CEC2AF1F91108900F141DD = {
 			isa = PBXGroup;
 			children = (
+				841141BF1FA0269500517B46 /* DLRadioButton.framework */,
 				84CEC2BA1F91108900F141DD /* Beefitt */,
 				84CEC2B91F91108900F141DD /* Products */,
 				21EFECE9E46403B58E8FD50B /* Pods */,
@@ -710,6 +750,7 @@
 				84CEC2B61F91108900F141DD /* Resources */,
 				8651B385E2DE328A1870DBD9 /* [CP] Embed Pods Frameworks */,
 				1243737FC3CA127F9C96EAAA /* [CP] Copy Pods Resources */,
+				841141C21FA0269500517B46 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -823,6 +864,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84FAB3D71F9F93A200F64A0D /* btn_molpay.png in Resources */,
 				8430C5781F92519B0055DB2D /* btn_30days.png in Resources */,
 				844219CB1F913A19000E6CEF /* banner.png in Resources */,
 				844219C41F9139AE000E6CEF /* sample_image7.png in Resources */,
@@ -1035,6 +1077,7 @@
 				84D444A51F947D0600FE39BD /* FilterLocationViewController.swift in Sources */,
 				8442194D1F911242000E6CEF /* MediaUtils.swift in Sources */,
 				8442194F1F911242000E6CEF /* TimeUtils.swift in Sources */,
+				84FAB3D11F9F874000F64A0D /* ContactUsViewController.swift in Sources */,
 				844219D91F913D89000E6CEF /* RegisterViewController.swift in Sources */,
 				8442195C1F911242000E6CEF /* Notifications.swift in Sources */,
 				844219631F911242000E6CEF /* SessionDelegate.swift in Sources */,
@@ -1042,10 +1085,13 @@
 				844219481F911242000E6CEF /* UILabel.swift in Sources */,
 				8442194C1F911242000E6CEF /* FileDownloader.swift in Sources */,
 				8442196B1F911242000E6CEF /* SwiftyJSON.swift in Sources */,
+				84FAB3D31F9F874F00F64A0D /* NeedHelpViewController.swift in Sources */,
 				844219DF1F913DC9000E6CEF /* NearByViewController.swift in Sources */,
 				8442195E1F911242000E6CEF /* Request.swift in Sources */,
+				84FAB3CD1F9F871400F64A0D /* PaymentsViewController.swift in Sources */,
 				8442194E1F911242000E6CEF /* StringUtils.swift in Sources */,
 				844219591F911242000E6CEF /* DispatchQueue+Alamofire.swift in Sources */,
+				84FAB3CF1F9F872800F64A0D /* TransactionViewController.swift in Sources */,
 				844219E31F913DEA000E6CEF /* MyActivityViewController.swift in Sources */,
 				844219441F911242000E6CEF /* String.swift in Sources */,
 				844219ED1F913EBE000E6CEF /* FilterContainerViewController.swift in Sources */,
@@ -1063,6 +1109,7 @@
 				844219611F911242000E6CEF /* Result.swift in Sources */,
 				844219DD1F913DBC000E6CEF /* HomeViewController.swift in Sources */,
 				8442196C1F911242000E6CEF /* BFPaperCheckbox.m in Sources */,
+				84FAB3D51F9F875A00F64A0D /* PartyServiceViewController.swift in Sources */,
 				844219581F911242000E6CEF /* Alamofire.swift in Sources */,
 				844219411F911242000E6CEF /* API.swift in Sources */,
 				8442196D1F911242000E6CEF /* NIDropDown.m in Sources */,
@@ -1083,6 +1130,7 @@
 				844219461F911242000E6CEF /* UIFont.swift in Sources */,
 				844219DB1F913D94000E6CEF /* ForgotPasswordViewController.swift in Sources */,
 				844219EF1F9141EE000E6CEF /* MainTabBarViewController.swift in Sources */,
+				84FAB3CB1F9F86FE00F64A0D /* ProfileSettingViewController.swift in Sources */,
 				8430C5841F9273950055DB2D /* ActivityModel.swift in Sources */,
 				8442195F1F911242000E6CEF /* Response.swift in Sources */,
 				844219571F911242000E6CEF /* AFError.swift in Sources */,
@@ -1252,6 +1300,10 @@
 				CODE_SIGN_ENTITLEMENTS = Beefitt/Beefitt.entitlements;
 				DEVELOPMENT_TEAM = 68AWSRL435;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Beefitt/widget",
+				);
 				INFOPLIST_FILE = Beefitt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ntsoft.beefitt;
@@ -1272,6 +1324,10 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = 68AWSRL435;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Beefitt/widget",
+				);
 				INFOPLIST_FILE = Beefitt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ntsoft.beefitt;

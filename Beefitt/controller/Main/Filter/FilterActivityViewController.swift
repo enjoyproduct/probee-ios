@@ -7,13 +7,31 @@
 //
 
 import UIKit
+import JCTagListView
 
 class FilterActivityViewController: UIViewController {
 
+    @IBOutlet weak var tagListView: JCTagListView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        self.tagListView.canSelectTags = true
+        self.tagListView.tagStrokeColor = UIColor.gray
+        self.tagListView.tagBackgroundColor = UIColor.white
+        self.tagListView.tagTextColor = UIColor.gray
+        self.tagListView.tagSelectedBackgroundColor = UIColor.gray
+        self.tagListView.tagSelectedTextColor = UIColor.white
+        self.tagListView.tagCornerRadius = 5.0
+        self.tagListView.tags.addObjects(from: ["All", "Sport", "Tuition", "Kids Service"])
+    }
+    @IBAction func onClickResetAll(_ sender: Any) {
+        self.tagListView.selectedTags.removeAllObjects()
+        
+        self.tagListView.collectionView.reloadData()
+    }
+    @IBAction func onClickDone(_ sender: Any) {
+        self.dismiss(animated:true, completion: nil)
     }
 
     override func didReceiveMemoryWarning() {

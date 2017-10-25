@@ -11,6 +11,7 @@ pod 'SVPullToRefresh'
 pod 'SDWebImage'
 pod 'JSQMessagesViewController'
 pod 'IHKeyboardAvoiding'
+pod 'JCTagListView'
   # Pods for Beefitt
 
   target 'BeefittTests' do

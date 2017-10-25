@@ -19,7 +19,7 @@ class FilterContainerViewController: UIViewController, CarbonTabSwipeNavigationD
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        titles = ["Activity", "Location", "Time", "Other", ""]
+        titles = ["Activity", "Location", "Time", ""]
         
         carbonTabSwiftNavigation = CarbonTabSwipeNavigation(items: titles, delegate: self)
         carbonTabSwiftNavigation?.insert(intoRootViewController: self)
@@ -40,7 +40,7 @@ class FilterContainerViewController: UIViewController, CarbonTabSwipeNavigationD
         carbonTabSwiftNavigation?.setIndicatorColor(UIColor.white)
         //set tab width
         for i in 0..<self.titles.count  {
-            carbonTabSwiftNavigation?.carbonSegmentedControl?.setWidth(getScreenSize().width / 5, forSegmentAt: i)
+            carbonTabSwiftNavigation?.carbonSegmentedControl?.setWidth(getScreenSize().width / 4, forSegmentAt: i)
         }
         //customize segment color
         let font = UIFont.systemFont(ofSize: 13)
@@ -66,9 +66,8 @@ class FilterContainerViewController: UIViewController, CarbonTabSwipeNavigationD
         case 3:
             let vc = self.storyboard?.instantiateViewController(withIdentifier: "FilterOtherViewController") as! FilterOtherViewController
             return vc
-       
         default:
-            self.dismiss(animated: true, completion: nil)
+            
             return UIViewController()
         }
         
@@ -77,7 +76,9 @@ class FilterContainerViewController: UIViewController, CarbonTabSwipeNavigationD
         
     }
     func carbonTabSwipeNavigation(_ carbonTabSwipeNavigation: CarbonTabSwipeNavigation, didMoveAt index: UInt) {
-        
+        if index == 3 {
+            self.dismiss(animated: true, completion: nil)
+        }
     }
     func barPosition(for carbonTabSwipeNavigation: CarbonTabSwipeNavigation) -> UIBarPosition {
         return UIBarPosition.top; // default UIBarPositionTop

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import DLRadioButton
 
 class FilterLocationViewController: UIViewController {
 
@@ -14,6 +15,10 @@ class FilterLocationViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    }
+
+    @IBAction func onClickOption(_ sender: DLRadioButton) {
+        
     }
 
     override func didReceiveMemoryWarning() {

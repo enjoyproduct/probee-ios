@@ -15,6 +15,14 @@ class MoreViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    @IBAction func onClickPayment(_ sender: Any) {
+    }
+    @IBAction func onClickProfileSettings(_ sender: Any) {
+    }
+    @IBAction func onClickNeedHelp(_ sender: Any) {
+    }
+    @IBAction func onClickPartyService(_ sender: Any) {
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

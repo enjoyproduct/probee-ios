@@ -86,6 +86,7 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/CarbonKit/CarbonKit.framework"
   install_framework "$BUILT_PRODUCTS_DIR/IHKeyboardAvoiding/IHKeyboardAvoiding.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/JCTagListView/JCTagListView.framework"
   install_framework "$BUILT_PRODUCTS_DIR/JSQMessagesViewController/JSQMessagesViewController.framework"
   install_framework "$BUILT_PRODUCTS_DIR/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework"
   install_framework "$BUILT_PRODUCTS_DIR/SDWebImage/SDWebImage.framework"
@@ -95,6 +96,7 @@ fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/CarbonKit/CarbonKit.framework"
   install_framework "$BUILT_PRODUCTS_DIR/IHKeyboardAvoiding/IHKeyboardAvoiding.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/JCTagListView/JCTagListView.framework"
   install_framework "$BUILT_PRODUCTS_DIR/JSQMessagesViewController/JSQMessagesViewController.framework"
   install_framework "$BUILT_PRODUCTS_DIR/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework"
   install_framework "$BUILT_PRODUCTS_DIR/SDWebImage/SDWebImage.framework"
