@@ -24,17 +24,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="Pk8-xm-Fj0">
-                                <rect key="frame" x="112" y="318" width="150" height="31"/>
+                                <rect key="frame" x="93.5" y="240" width="187.5" height="187.5"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="Pk8-xm-Fj0" secondAttribute="height" multiplier="316:65" id="PeD-lH-o3b"/>
+                                    <constraint firstAttribute="width" secondItem="Pk8-xm-Fj0" secondAttribute="height" multiplier="316:316" id="PeD-lH-o3b"/>
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Pk8-xm-Fj0" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="4jy-sE-3an"/>
                             <constraint firstItem="Pk8-xm-Fj0" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ESa-VL-9TM"/>
-                            <constraint firstItem="Pk8-xm-Fj0" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.4" id="yOq-CM-yEY"/>
+                            <constraint firstItem="Pk8-xm-Fj0" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.5" id="yOq-CM-yEY"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -44,6 +44,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="logo.png" width="316" height="65"/>
+        <image name="logo.png" width="1024" height="1024"/>
     </resources>
 </document>
